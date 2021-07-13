@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gocon.github.io/2021autumn/code-of-conduct/</loc>
+    <loc>https://gocon.jp/2021autumn/code-of-conduct/</loc>
   </url><url>
-    <loc>https://gocon.github.io/2021autumn/</loc>
+    <loc>https://gocon.jp/2021autumn/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://gocon.github.io/2021autumn/ja/"
+                href="https://gocon.jp/2021autumn/ja/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://gocon.github.io/2021autumn/"
+                href="https://gocon.jp/2021autumn/"
                 />
   </url><url>
-    <loc>https://gocon.github.io/2021autumn/tags/</loc>
+    <loc>https://gocon.jp/2021autumn/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://gocon.github.io/2021autumn/ja/tags/"
+                href="https://gocon.jp/2021autumn/ja/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://gocon.github.io/2021autumn/tags/"
+                href="https://gocon.jp/2021autumn/tags/"
                 />
   </url>
 </urlset>
