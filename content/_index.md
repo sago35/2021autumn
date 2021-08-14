@@ -62,11 +62,9 @@ icon="right" %}}
 
 {{% /home-tickets %}}
 
-<!--
 {{% partners categories="gold,silver,bronze,green" %}}
 # Partners
 {{% /partners %}}
--->
 
 <div class="plain-notice">
   <p>
