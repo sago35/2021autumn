@@ -26,9 +26,11 @@ Go Conference is a half-annual conference of programming language Go in Tokyo.
 <!-- ... -->
 <!-- ... -->
 
+<!--
 {{<cfp starts="2021-06-12"
        ends="2021-08-31"
        url="https://www.papercall.io/gocon-tokyo-2021-autumn">}}
+-->
 
 <!--
 {{% home-speakers %}}
@@ -66,6 +68,15 @@ icon="right" %}}
 {{% /partners %}}
 -->
 
+<div class="plain-notice">
+  <p>
+    <a href="https://www.papercall.io/gocon-tokyo-2021-autumn">CfP</a> and <a href="https://drive.google.com/file/d/1TVTPtHXOSvABu8OjtAZZVVGn1uhQN8oo/view">sponsorship applications</a> have been closed on August 31.
+  </p>
+
+  <p>Thank you for your applications!</p>
+</div>
+
+<!--
 <div style="text-align: center; margin-bottom: 20px;">
 
 ## For partners
@@ -74,7 +85,10 @@ If your company wants to sponsor, show the following slides:
 {{% button-link label="See Sponsership plans"
                 url="https://drive.google.com/file/d/1TVTPtHXOSvABu8OjtAZZVVGn1uhQN8oo/view"
                 icon="link" %}}
+
 </div>
+-->
+
 <!-- ... -->
 
 <!-- ... -->
