@@ -189,6 +189,19 @@
     text-decoration: underline;
 }
 
+.plain-notice {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.plain-notice a {
+    color: var(--primary);
+}
+
+.plain-notice a:hover {
+    text-decoration: underline;
+}
+
 .cfp {
     padding: 4rem;
     display: flex;
