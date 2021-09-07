@@ -65,12 +65,10 @@ icon="right" %}}
 {{% /home-tickets %}}
 
 
-<!--
 {{% partners categories="gold,silver,bronze,green" %}}
 # スポンサー
 
 {{% /partners %}}
--->
 
 <div class="plain-notice">
   <p>
