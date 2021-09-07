@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gocon.jp/2021autumn/partners/silver/basebank/</loc>
+  </url><url>
     <loc>https://gocon.jp/2021autumn/code-of-conduct/</loc>
   </url><url>
     <loc>https://gocon.jp/2021autumn/</loc>
@@ -16,6 +18,18 @@
                 href="https://gocon.jp/2021autumn/"
                 />
   </url><url>
+    <loc>https://gocon.jp/2021autumn/partners/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/partners/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/partners/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2021autumn/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -27,5 +41,17 @@
                 hreflang="en"
                 href="https://gocon.jp/2021autumn/tags/"
                 />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/partners/silver/fuller/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/partners/silver/hey/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/partners/gold/miidas/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/partners/silver/kanmu/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/partners/silver/mediado/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/partners/silver/yappli/</loc>
   </url>
 </urlset>

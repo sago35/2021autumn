@@ -14,6 +14,18 @@
                 href="https://gocon.jp/2021autumn/ja/tags/"
                 />
   </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/partners/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/partners/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/partners/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2021autumn/ja/</loc>
     <xhtml:link
                 rel="alternate"

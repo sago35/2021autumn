@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Go Conference 2021 Autumn</title>
-    <link>https://gocon.jp/2021autumn/</link>
-    <description>Recent content in Home on Go Conference 2021 Autumn</description>
+    <title>Partners on Go Conference 2021 Autumn</title>
+    <link>https://gocon.jp/2021autumn/partners/</link>
+    <description>Recent content in Partners on Go Conference 2021 Autumn</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="https://gocon.jp/2021autumn/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language><atom:link href="https://gocon.jp/2021autumn/partners/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BASE BANK株式会社</title>
       <link>https://gocon.jp/2021autumn/partners/silver/basebank/</link>
@@ -13,15 +13,6 @@
       
       <guid>https://gocon.jp/2021autumn/partners/silver/basebank/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Code of Conduct</title>
-      <link>https://gocon.jp/2021autumn/code-of-conduct/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/code-of-conduct/</guid>
-      <description>Go Community Code of Conduct We require our attendees and speakers to follow Go Community Code of Conduct.</description>
     </item>
     
     <item>
