@@ -1,10 +1,26 @@
 {{ define "main" }}
 
 <section class="header">
-	<div class="card" style="background-image: url({{ .Site.BaseURL }}{{ .Params.logo }});"></div>
-	<h1>{{ .Title }}</h1>
+	<div class="card">
+		{{ if .Params.website }}
+		<a href="{{ .Params.website }}">
+			<img src="{{ .Site.BaseURL }}{{ .Params.logo }}">
+		</a>
+		{{ else }}
+			<img src="{{ .Site.BaseURL }}{{ .Params.logo }}">
+		{{ end }}
+	</div>
 	{{ if .Params.website }}
-	<a href="{{ .Params.website }}">{{ .Params.website }}</a>
+	<h1>
+		<a href="{{ .Params.website }}">
+			{{ .Title }}
+		</a>
+	</h1>
+	<h2>
+		<a href="{{ .Params.website }}">{{ .Params.website }}</a>
+	</h2>
+	{{ else }}
+		<h1>{{ .Title }}</h1>
 	{{ end }}
 </section>
 
