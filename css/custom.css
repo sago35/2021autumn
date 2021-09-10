@@ -16,6 +16,12 @@
   text-transform: none;
 }
 
+.partners .header .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .talk .complexity:before {
     content: "Level : ";
 }
