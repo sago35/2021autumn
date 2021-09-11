@@ -1,6 +1,7 @@
 ---
 key: dena
 title: 株式会社ディー・エヌ・エー / DeNA Co., Ltd.
+website: https://dena.com/
 category: gold
 order: 3
 logo: /images/partners/dena.svg
