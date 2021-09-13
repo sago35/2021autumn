@@ -1,11 +1,24 @@
 .partners-group.partner-gold ul li {
-  height: var(--partner-platinum-height);
   flex-basis: 320px;
+  height: 180px;
 }
 
+/* gold * 0.75 */
 .partners-group.partner-silver ul li {
-  height: var(--partner-gold-height);
-  flex-basis: 200px;
+  flex-basis: 240px;
+  height: 135px;
+}
+
+/* gold * 0.5 */
+.partners-group.partner-bronze ul li {
+  flex-basis: 160px;
+  height: 90px;
+}
+
+/* gold * 0.45 */
+.partners-group.partner-green ul li {
+  flex-basis: 144px;
+  height: 81px;
 }
 
 .partners-group ul li div.partner {
