@@ -2,6 +2,14 @@
   padding: 0;
 }
 
+/* 一部のロゴではdevfestテーマのデフォルトのpaddingを残す */
+/** ↓公開前チェック時の状態を維持するため **/ 
+.partners-group ul li .partner[title="株式会社ディー・エヌ・エー / DeNA Co., Ltd."],
+/** ↓デフォルトのpaddingを前提にしてロゴの余白を調整したため **/ 
+.partners-group.partner-silver ul li .partner {
+  padding: var(--space-3);
+}
+
 .partners-group.partner-gold ul li {
   flex-basis: 320px;
   height: 180px;
