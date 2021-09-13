@@ -21,6 +21,11 @@
   height: 81px;
 }
 
+.partners-group h3 {
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
 .partners-group ul li div.partner {
   pointer-events: none;
 }
