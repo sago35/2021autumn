@@ -1,0 +1,91 @@
+- day: "2021-11-13"
+  start: "10:00"
+  rooms:
+  - room: track-a
+    slots:
+    - slot: opening
+      talk: opening
+    - slot: sponsor-miidas
+      talk: sponsor-miidas
+    - slot: sponsor-kaminashi
+      talk: sponsor-kaminashi
+    - slot: track-a-break--62167180200
+      talk: break
+    - slot: go-nintendo-switch
+      talk: go-nintendo-switch
+    - slot: crafting-shell
+      talk: crafting-shell
+    - slot: lunch
+      talk: lunch
+    - slot: sponsor-dena-cm
+      talk: sponsor-dena-cm
+    - slot: understanding-go-context
+      talk: understanding-go-context
+    - slot: go-stdlib-font-image
+      talk: go-stdlib-font-image
+    - slot: track-a-break--62167168200
+      talk: break
+    - slot: how-goroutine-works
+      talk: how-goroutine-works
+    - slot: microservice-last-steps
+      talk: microservice-last-steps
+    - slot: golang-sqls
+      talk: golang-sqls
+    - slot: track-a-break--62167164000
+      talk: break
+    - slot: io-fs-testability
+      talk: io-fs-testability
+    - slot: go-floating-point-and-decimal
+      talk: go-floating-point-and-decimal
+    - slot: track-a-break--62167159200
+      talk: break
+    - slot: sponsor-dena
+      talk: sponsor-dena
+    - slot: sponsor-bitkey
+      talk: sponsor-bitkey
+    - slot: track-a-break--62167156200
+      talk: break
+    - slot: http-roundtripper
+      talk: http-roundtripper
+    - slot: go-proposal-guide
+      talk: go-proposal-guide
+    - slot: gorm-update
+      talk: gorm-update
+    - slot: azure-ad-auth-server
+      talk: azure-ad-auth-server
+    - slot: handmade-http-router
+      talk: handmade-http-router
+    - slot: better-golang-mock
+      talk: better-golang-mock
+    - slot: go-static-analysis
+      talk: go-static-analysis
+    - slot: webdriver-client-from-scratch
+      talk: webdriver-client-from-scratch
+    - slot: closing
+      talk: closing
+  - room: track-b
+    slots:
+    - slot: go-cloud-gaming-platform
+      talk: go-cloud-gaming-platform
+    - slot: fast-scalable-reverse-geocoding
+      talk: fast-scalable-reverse-geocoding
+    - slot: io-fs-fs-testability-abstraction
+      talk: io-fs-fs-testability-abstraction
+    - slot: go-graphql-service
+      talk: go-graphql-service
+    - slot: two-phase-commit
+      talk: two-phase-commit
+    - slot: embedded-time-series-db
+      talk: embedded-time-series-db
+    - slot: go-scheduling
+      talk: go-scheduling
+    - slot: go-unicode
+      talk: go-unicode
+  - room: remo
+    slots:
+    - slot: workshop_a
+      talk: workshop_a
+    - slot: workshop_b
+      talk: workshop_b
+    - slot: remo-after-party--62167152000
+      talk: after-party
