@@ -50,4 +50,5 @@ googleAnalytics = "UA-127197700-1"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
+      hardWraps = true
       unsafe = true
