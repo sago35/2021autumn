@@ -1,8 +1,8 @@
 ---
 key: shibu_jp
 id: shibu_jp
-name: Yoshiki Shibukawa
-company: Future Architect, Inc.
+name: 渋川よしき
+company: フューチャー株式会社
 photoURL: /images/speakers/shibu_jp.jpeg
 socials:
 - icon: twitter
