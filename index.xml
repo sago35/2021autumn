@@ -266,15 +266,6 @@ https://future-architect.github.io/</description>
     </item>
     
     <item>
-      <title>AD: 株式会社ディー・エヌ・エー / DeNA Co., Ltd.</title>
-      <link>https://gocon.jp/2021autumn/sessions/sponsor-dena-cm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/sessions/sponsor-dena-cm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>After Party</title>
       <link>https://gocon.jp/2021autumn/sessions/after-party/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -791,6 +782,15 @@ I will show the implementation of two-phase commit in the go language that I did
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/sessions/sponsor-miidas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>スポンサーセッション: Remo</title>
+      <link>https://gocon.jp/2021autumn/sessions/sponsor-remo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/sessions/sponsor-remo/</guid>
       <description></description>
     </item>
     
