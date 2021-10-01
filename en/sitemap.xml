@@ -2,13 +2,155 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gocon.jp/2021autumn/speakers/__syumai/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/_achiku/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/bmf_san/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/castanea/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/d_tutuz/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/erakazu/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/flum_/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/hajimehoshi/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/hgsgtk/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/hogegashi/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/it_guitar/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/k1low/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/kenta_moriwaki/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/kojiaomatsu/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/lighttiger2505/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/nakabonne/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/nao_mk2/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/sago35tk/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/speakers/sago35tk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/speakers/sago35tk/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/saki_engineer/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/sanpo_shiho/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/sekino_pii/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/shibu_jp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/speakers/shibu_jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/speakers/shibu_jp/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/sivchari/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/sntree_suzunoki/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/tbd/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/tenntenn/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/ymtyta/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/azure-ad-auth-server/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/sponsor-dena-cm/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/after-party/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/after-party/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/after-party/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2021autumn/partners/silver/basebank/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/_break/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/_break/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/_break/"
+                />
   </url><url>
     <loc>https://gocon.jp/2021autumn/partners/bronze/chompy/</loc>
   </url><url>
     <loc>https://gocon.jp/2021autumn/partners/bronze/classi/</loc>
   </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/closing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/closing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/closing/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/go-cloud-gaming-platform/</loc>
+  </url><url>
     <loc>https://gocon.jp/2021autumn/code-of-conduct/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/webdriver-client-from-scratch/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/go-nintendo-switch/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/go-floating-point-and-decimal/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/understanding-go-context/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/better-golang-mock/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/golang-sqls/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/gorm-update/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/how-goroutine-works/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/fast-scalable-reverse-geocoding/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/go-static-analysis/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/go-graphql-service/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/go-proposal-guide/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/go-stdlib-font-image/</loc>
   </url><url>
     <loc>https://gocon.jp/2021autumn/</loc>
     <xhtml:link
@@ -20,6 +162,48 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://gocon.jp/2021autumn/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/io-fs-fs-testability-abstraction/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/io-fs-testability/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/crafting-shell/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/crafting-shell/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/crafting-shell/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/_lunch/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/_lunch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/_lunch/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/handmade-http-router/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/opening/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/opening/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/opening/"
                 />
   </url><url>
     <loc>https://gocon.jp/2021autumn/partners/</loc>
@@ -34,7 +218,43 @@
                 href="https://gocon.jp/2021autumn/partners/"
                 />
   </url><url>
+    <loc>https://gocon.jp/2021autumn/schedule/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/schedule/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/schedule/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2021autumn/partners/bronze/seeed/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/speakers/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/speakers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/speakers/"
+                />
   </url><url>
     <loc>https://gocon.jp/2021autumn/tags/</loc>
     <xhtml:link
@@ -48,7 +268,47 @@
                 href="https://gocon.jp/2021autumn/tags/"
                 />
   </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/two-phase-commit/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/workshop_a/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/workshop_a/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/workshop_a/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/workshop_b/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/workshop_b/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/workshop_b/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/go-scheduling/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/embedded-time-series-db/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/go-unicode/</loc>
+  </url><url>
     <loc>https://gocon.jp/2021autumn/partners/bronze/wantedly/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/sponsor-bitkey/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/sponsor-dena/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/sponsor-kaminashi/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/sponsor-miidas/</loc>
   </url><url>
     <loc>https://gocon.jp/2021autumn/partners/silver/tricot/</loc>
   </url><url>
@@ -58,7 +318,11 @@
   </url><url>
     <loc>https://gocon.jp/2021autumn/partners/silver/hey/</loc>
   </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/microservice-last-steps/</loc>
+  </url><url>
     <loc>https://gocon.jp/2021autumn/partners/gold/miidas/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/sessions/http-roundtripper/</loc>
   </url><url>
     <loc>https://gocon.jp/2021autumn/partners/bronze/zauel/</loc>
   </url><url>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sessions on Go Conference 2021 Autumn</title>
+    <link>https://gocon.jp/2021autumn/ja/sessions/</link>
+    <description>Recent content in Sessions on Go Conference 2021 Autumn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2021autumn/ja/sessions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Computer Systems by Crafting: Shell （作って学ぶシェル）</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/crafting-shell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/crafting-shell/</guid>
+      <description>Bashなどのシェルの知識をどこで学ぶか、ネット上でたまに議論になるネタです。空気のような存在であるからこそ存在に気づきにくいシェルを、Goを使ってPOSIXシェルのサブセットを作りながら、シェルの役割や機能について学びます。
+ 明示的にシェルとは何かを学ぶ機会というのはあまりありません。しかし、コンテナ技術などの今時の技術を扱うにも、シェルの知識は必要不可欠です。ポータブルなコンテナを実現するために必要な知識は環境変数というシェルが持つ機能ですし、Distrolessなどのセキュアなコンテナイメージが売りを理解するにも、そのアプリケーションを作るのにもシェル知識が必要です。
+ シェルの役割  シェルとは何か？ CUIのシェルに求められる機能   シェルが持つ状態  環境変数 PATH ワークディレクトリ 終了コード ファイル(0, 1, 2とは何か)   Dockerでプロセス起動の引数を文字列で渡すのと配列で渡すのはどう違う？  プロセス起動のAPIでよくみられるshell利用の有無の違い   Unix哲学と12 FACTOR APP Goで作って学ぶシェル  Goのos/execの動作 POSIXの仕様書を読む    </description>
+    </item>
+    
+    <item>
+      <title>TinyGo ハンズオンA</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/workshop_a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/workshop_a/</guid>
+      <description>TBD</description>
+    </item>
+    
+    <item>
+      <title>TinyGo ハンズオンB</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/workshop_b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/workshop_b/</guid>
+      <description>TBD</description>
+    </item>
+    
+    <item>
+      <title>オープニング</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/opening/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/opening/</guid>
+      <description>Opening talk.</description>
+    </item>
+    
+    <item>
+      <title>クロージング</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/closing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/closing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ランチ休憩</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/_lunch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/_lunch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>休憩</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/_break/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/_break/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>懇親会</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/after-party/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/after-party/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

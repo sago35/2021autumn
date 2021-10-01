@@ -2,6 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gocon.jp/2021autumn/ja/speakers/sago35tk/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/speakers/sago35tk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/speakers/sago35tk/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/speakers/shibu_jp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/speakers/shibu_jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/speakers/shibu_jp/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/sessions/crafting-shell/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/crafting-shell/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/crafting-shell/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/sessions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/speakers/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/speakers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/speakers/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2021autumn/ja/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -12,6 +72,54 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://gocon.jp/2021autumn/ja/tags/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/sessions/workshop_a/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/workshop_a/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/workshop_a/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/sessions/workshop_b/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/workshop_b/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/workshop_b/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/sessions/opening/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/opening/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/opening/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/sessions/closing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/closing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/closing/"
                 />
   </url><url>
     <loc>https://gocon.jp/2021autumn/ja/partners/</loc>
@@ -26,6 +134,18 @@
                 href="https://gocon.jp/2021autumn/ja/partners/"
                 />
   </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/schedule/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/schedule/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/schedule/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2021autumn/ja/</loc>
     <xhtml:link
                 rel="alternate"
@@ -36,6 +156,42 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://gocon.jp/2021autumn/ja/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/sessions/_lunch/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/_lunch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/_lunch/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/sessions/_break/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/_break/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/_break/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2021autumn/ja/sessions/after-party/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2021autumn/sessions/after-party/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2021autumn/ja/sessions/after-party/"
                 />
   </url>
 </urlset>

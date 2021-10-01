@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speakers on Go Conference 2021 Autumn</title>
+    <link>https://gocon.jp/2021autumn/ja/speakers/</link>
+    <description>Recent content in Speakers on Go Conference 2021 Autumn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2021autumn/ja/speakers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/sago35tk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/sago35tk/</guid>
+      <description>仕事でも趣味でも Go 書いてる組込ソフトエンジニア。ここ最近は TinyGo プロジェクトの中の人として活動しています。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/shibu_jp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/shibu_jp/</guid>
+      <description>Goの本を書いています。業務でも中規模案件などでちょこちょこ利用しています。Goやその他の知見は会社の技術ブログで公開しています。好きなパッケージはcrypto/rand</description>
+    </item>
+    
+  </channel>
+</rss>
