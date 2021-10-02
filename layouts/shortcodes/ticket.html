@@ -1,6 +1,7 @@
 <div class="ticket" {{ if .Get "soldOut" }}aria-disabled="true"{{ end }}>
 <div class="ticket-name">{{ .Get "name"}}</div>
 <div class="ticket-price">{{ .Get "price" }}</div>
+{{- if and (.Get "starts") (.Get "ends") }}
 <div class="ticket-date">
 {{- $starts := time (.Get "starts") -}}
 {{- $ends := time (.Get "ends") -}}
@@ -8,6 +9,8 @@
 &nbsp;&hyphen;&nbsp;
 {{- $ends.Day -}}&nbsp;{{- dateFormat "Jan." $ends -}}&nbsp;{{- $ends.Year -}}
 </div>
+{{ end -}}
+
 <div class="ticket-info">{{ .Get "info" }}</div>
 
 {{- if .Get "soldOut" }}
