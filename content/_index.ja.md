@@ -55,8 +55,6 @@ icon="right" %}}
 
 <ul>
 <li>{{<ticket name="セッション"
-           starts="2021-10-01"
-           ends="2021-11-23"
            price="無料"
            url="https://gocon.connpass.com/event/213865/">}}</li>
 </li>
