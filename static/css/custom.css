@@ -255,3 +255,8 @@
 .cfp .btn {
     margin: var(--space-4);
 }
+
+/* shortcodes/partners.html */
+.partners .inner {
+    text-align: center;
+}
