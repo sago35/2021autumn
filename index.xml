@@ -683,7 +683,11 @@ I will show the implementation of two-phase commit in the go language that I did
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/sessions/workshop_a/</guid>
-      <description>TBD</description>
+      <description>TinyGo ハンズオンを行います。ハンズオンでは、組込ソフトとしての側面にフォーカスし、 L チカ (LED を光らせる) などを行います。
+TinyGo は Go でマイコンや WASM 向けのバイナリを出力するためのプログラミング言語／環境です。今回のハンズオンの範囲としてはマイコン／組込システムで動く Go という認識で良いです。
+今回ハンズオンを実施するにあたり、 Seeed株式会社様より Wio Terminal ボードをスポンサー していただきました。 Wio Terminal を使って、 TinyGo による組込ソフト開発を体験してみましょう。
+このイベントは日本語で開催されます。
+This event will be held in Japanese.</description>
     </item>
     
     <item>
@@ -692,7 +696,11 @@ I will show the implementation of two-phase commit in the go language that I did
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/sessions/workshop_b/</guid>
-      <description>TBD</description>
+      <description>TinyGo ハンズオンを行います。ハンズオンでは、組込ソフトとしての側面にフォーカスし、 L チカ (LED を光らせる) などを行います。
+TinyGo は Go でマイコンや WASM 向けのバイナリを出力するためのプログラミング言語／環境です。今回のハンズオンの範囲としてはマイコン／組込システムで動く Go という認識で良いです。
+今回ハンズオンを実施するにあたり、 Seeed株式会社様より Wio Terminal ボードをスポンサー していただきました。 Wio Terminal を使って、 TinyGo による組込ソフト開発を体験してみましょう。
+このイベントは日本語で開催されます。
+This event will be held in Japanese.</description>
     </item>
     
     <item>
