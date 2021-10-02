@@ -261,3 +261,10 @@ a:visited {
 .partners .inner {
   text-align: center;
 }
+
+/* themes/devfest-theme-hugo/layouts/partials/header.html */
+body > header nav .languages a.lang {
+  /* 言語選択ラベルのベースラインがメニューとずれるのを防ぐ */
+  height: auto;
+  white-space: nowrap;
+}
