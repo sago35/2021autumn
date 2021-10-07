@@ -278,3 +278,18 @@ body > header nav .languages a.lang {
 .page.sessions .talk .detail {
   border-bottom: none;
 }
+
+.page.sessions .talk .detail .content::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.page.sessions .talk .detail .sponsor-notice {
+  margin: var(--space-4) 0;
+  text-align: center;
+}
+
+.page.sessions .talk .detail .partners-group ul li {
+  margin: 0;
+}
