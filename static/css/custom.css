@@ -268,3 +268,8 @@ body > header nav .languages a.lang {
   height: auto;
   white-space: nowrap;
 }
+
+/* layouts/speakers/single.html */
+.page.speakers .hero header.no-img {
+  padding-right: 0;
+}
