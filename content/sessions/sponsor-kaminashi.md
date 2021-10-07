@@ -6,6 +6,5 @@ format: conference
 talkType: sponsor_session
 partner: kaminashi
 allroom: false
-speakers:
-- tbd
+speakers: []
 ---
