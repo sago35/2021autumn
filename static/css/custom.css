@@ -273,3 +273,8 @@ body > header nav .languages a.lang {
 .page.speakers .hero header.no-img {
   padding-right: 0;
 }
+
+/* layouts/sessions/single.html */
+.page.sessions .talk .detail {
+  border-bottom: none;
+}
