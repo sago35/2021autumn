@@ -6,6 +6,5 @@ format: conference
 talkType: sponsor_session
 partner: bitkey
 allroom: false
-speakers:
-- tbd
+speakers: []
 ---
