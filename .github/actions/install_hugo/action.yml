@@ -1,0 +1,8 @@
+name: Install Hugo
+description: Install Hugo
+runs:
+  using: composite
+  steps:
+    - uses: peaceiris/actions-hugo@v2
+      with:
+        extended: true

@@ -1,0 +1,66 @@
+name: Deploy PR to preview repository
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: Get preview repo name
+        uses: ./.github/actions/get_preview_repo_name
+        id: preview_repo
+
+      - name: Install Hugo
+        uses: ./.github/actions/install_hugo
+
+      - name: Build pages
+        run: hugo -v --baseURL="$baseURL"
+        env:
+          baseURL: https://${{ steps.preview_repo.outputs.owner }}.github.io/${{ steps.preview_repo.outputs.name }}
+
+      - name: Get GitHub token
+        id: get_token
+        uses: getsentry/action-github-app-token@v1
+        with:
+          app_id: ${{ secrets.PREVIEW_APP_ID }}
+          private_key: ${{ secrets.PREVIEW_APP_PRIVATE_KEY }}
+
+      - name: Check if new repository is needed
+        id: new_repo
+        # 新しいリポジトリを作る必要があれば'true'、なければ'false'をresultに出力する
+        run: echo "::set-output name=result::$new_repo"
+        env:
+          new_repo: ${{ github.event.action == 'opened' || github.event.action == 'reopened' }}
+
+      - name: Create preview repo
+        if: steps.new_repo.outputs.result == 'true'
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /orgs/{org}/repos
+          org: ${{ steps.preview_repo.outputs.owner }}
+          name: ${{ steps.preview_repo.outputs.name }}
+        env:
+          GITHUB_TOKEN: ${{ steps.get_token.outputs.token }}
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ steps.get_token.outputs.token }}
+          external_repository: ${{ steps.preview_repo.outputs.full_name }}
+          publish_dir: public
+
+      - name: Enable GitHub Pages
+        if: steps.new_repo.outputs.result == 'true'
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/{repo_name}/pages
+          repo_name: ${{ steps.preview_repo.outputs.full_name }}
+          data: '{"source":{"branch":"gh-pages"}}'
+        env:
+          GITHUB_TOKEN: ${{ steps.get_token.outputs.token }}
