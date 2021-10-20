@@ -2,7 +2,7 @@
 key: k1low
 id: k1low
 name: Ken'ichiro Oyama
-company: GMO Pepabo, Inc.
+company: GMOペパボ株式会社
 photoURL: /images/speakers/k1low.png
 socials:
 - icon: twitter

@@ -2,7 +2,7 @@
 key: sntree_suzunoki
 id: sntree_suzunoki
 name: Sntree
-company: Retty, Inc.
+company: Retty株式会社
 photoURL: /images/speakers/sntree_suzunoki.jpg
 socials:
 - icon: twitter

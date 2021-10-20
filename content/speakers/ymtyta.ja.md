@@ -2,7 +2,7 @@
 key: ymtyta
 id: ymtyta
 name: Takahito Yamatoya
-company: ARIGATOBANK Inc.
+company: 株式会社ARIGATOBANK
 photoURL: /images/speakers/ymtyta.jpg
 socials:
 - icon: twitter

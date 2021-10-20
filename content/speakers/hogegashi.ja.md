@@ -1,8 +1,8 @@
 ---
 key: hogegashi
 id: hogegashi
-name: Takeshi Yaegashi
-company: BANDAI NAMCO Studios Inc.
+name: 八重樫 剛史
+company: 株式会社バンダイナムコスタジオ
 photoURL: /images/speakers/hogegashi.jpeg
 socials:
 - icon: twitter

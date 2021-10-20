@@ -1,8 +1,8 @@
 ---
 key: erakazu
 id: erakazu
-name: Kazutaka Era
-company: Mobility Technologies Co., Ltd.
+name: 惠良和隆
+company: 株式会社Mobility Technologies
 photoURL: /images/speakers/erakazu.jpg
 socials:
 - icon: twitter

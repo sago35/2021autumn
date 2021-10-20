@@ -1,7 +1,7 @@
 ---
 key: hgsgtk
 id: hgsgtk
-name: Kazuki Higashiguchi
+name: 東口和暉
 company: BASE BANK, Inc.
 photoURL: /images/speakers/hgsgtk.jpg
 socials:

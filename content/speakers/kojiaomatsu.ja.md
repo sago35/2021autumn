@@ -2,7 +2,7 @@
 key: kojiaomatsu
 id: kojiaomatsu
 name: Koji Aomatsu
-company: Mobility Technologies Co., Ltd.
+company: 株式会社Mobility Technologies
 photoURL: /images/speakers/kojiaomatsu.jpg
 socials:
 - icon: twitter

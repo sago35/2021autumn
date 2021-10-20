@@ -2,7 +2,7 @@
 key: nao_mk2
 id: nao_mk2
 name: Naoya Ikeda
-company: Retty, Inc.
+company: Retty株式会社
 photoURL: /images/speakers/nao_mk2.jpg
 socials:
 - icon: twitter
