@@ -299,6 +299,15 @@ body > header nav .languages a.lang {
   padding: 2rem var(--container-margin);
 }
 
+.section.speakers ul.speakers {
+  justify-content: center;
+}
+
+.section.speakers ul.speakers > li {
+  flex: 0 0 335px;
+  max-width: none;
+}
+
 /* layouts/partials/speaker.html */
 .speaker .info {
   flex: auto;
