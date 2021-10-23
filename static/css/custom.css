@@ -298,3 +298,27 @@ body > header nav .languages a.lang {
 .section.speakers h2 {
   padding: 2rem var(--container-margin);
 }
+
+.section.speakers ul.speakers {
+  justify-content: center;
+}
+
+.section.speakers ul.speakers > li {
+  flex: 0 0 335px;
+  max-width: none;
+}
+
+/* layouts/partials/speaker.html */
+.speaker .info {
+  flex: auto;
+  text-align: center;
+}
+
+.speaker .info .speaker-name {
+  font-weight: normal;
+}
+
+.speaker .info .speaker-company {
+  font-size: 85%;
+  color: var(--base-secondary-text);
+}
