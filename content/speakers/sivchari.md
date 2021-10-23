@@ -2,7 +2,7 @@
 key: sivchari
 id: sivchari
 name: sivchari
-company: サイバーエージェント(22卒)
+company: CyberAgent, Inc. (from Apr 2022)
 photoURL: /images/speakers/sivchari.jpg
 socials:
 - icon: twitter

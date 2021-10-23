@@ -2,7 +2,7 @@
 key: tenntenn
 id: tenntenn
 name: tenntenn
-company: 株式会社メルペイ
+company: Merpay, Inc.
 photoURL: /images/speakers/tenntenn.png
 socials:
 - icon: twitter

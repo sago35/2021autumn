@@ -2,7 +2,7 @@
 key: sekino_pii
 id: sekino_pii
 name: Ryoya Sekino
-company: 株式会社UPSIDER
+company: UPSIDER Inc.
 photoURL: /images/speakers/sekino_pii.png
 socials:
 - icon: twitter

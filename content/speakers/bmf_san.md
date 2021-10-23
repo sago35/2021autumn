@@ -2,7 +2,7 @@
 key: bmf_san
 id: bmf_san
 name: bmf_san
-company: 株式会社マクアケ
+company: Makuake, Inc.
 photoURL: /images/speakers/bmf_san.jpg
 socials:
 - icon: twitter

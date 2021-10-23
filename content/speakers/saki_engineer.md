@@ -1,7 +1,7 @@
 ---
 key: saki_engineer
 id: saki_engineer
-name: さき(H.Saki)
+name: Saki (H.Saki)
 company: ""
 photoURL: /images/speakers/saki_engineer.png
 socials:

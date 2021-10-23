@@ -2,7 +2,7 @@
 key: nakabonne
 id: nakabonne
 name: nakabonne
-company: 株式会社サイバーエージェント
+company: CyberAgent, Inc.
 photoURL: /images/speakers/nakabonne.png
 socials:
 - icon: twitter

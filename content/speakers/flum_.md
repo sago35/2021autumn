@@ -1,8 +1,8 @@
 ---
 key: flum_
 id: flum_
-name: 諏訪 侑希
-company: Retty株式会社
+name: Yuki Suwa
+company: Retty, Inc.
 photoURL: /images/speakers/flum_.jpg
 socials:
 - icon: twitter

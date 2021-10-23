@@ -2,7 +2,7 @@
 key: kenta_moriwaki
 id: kenta_moriwaki
 name: Kenta Moriwaki
-company: ' Retty株式会社'
+company: Retty, Inc.
 photoURL: /images/speakers/kenta_moriwaki.png
 socials: []
 ---

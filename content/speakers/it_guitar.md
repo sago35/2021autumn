@@ -1,8 +1,8 @@
 ---
 key: it_guitar
 id: it_guitar
-name: 伊藤真彦
-company: フューチャー株式会社
+name: Masahiko Ito
+company: Future Corporation
 photoURL: /images/speakers/it_guitar.jpg
 socials:
 - icon: twitter

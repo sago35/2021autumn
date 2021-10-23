@@ -1,8 +1,8 @@
 ---
 key: sanpo_shiho
 id: sanpo_shiho
-name: 中田健誠
-company: 京都大学
+name: Kensei Nakada
+company: Kyoto University
 photoURL: /images/speakers/sanpo_shiho.jpg
 socials:
 - icon: twitter

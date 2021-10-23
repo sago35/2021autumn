@@ -2,7 +2,7 @@
 key: lighttiger2505
 id: lighttiger2505
 name: lighttiger2505
-company: 株式会社Mobility Technologies
+company: Mobility Technologies Co., Ltd.
 photoURL: /images/speakers/lighttiger2505.jpg
 socials:
 - icon: twitter

@@ -2,7 +2,7 @@
 key: d_tutuz
 id: d_tutuz
 name: Tsuji Daishiro
-company: フューチャー株式会社
+company: Future Corporation
 photoURL: /images/speakers/d_tutuz.jpg
 socials:
 - icon: twitter
