@@ -293,3 +293,8 @@ body > header nav .languages a.lang {
 .page.sessions .talk .detail .partners-group ul li {
   margin: 0;
 }
+
+/* layouts/speakers/list.html */
+.section.speakers h2 {
+  padding: 2rem var(--container-margin);
+}
