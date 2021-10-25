@@ -6,7 +6,7 @@
 
 {{ $site := .Site }}
 {{ range (split (.Get "categories") ",") }}
-{{ $partners := where $site.AllPages "Params.category" . }}
+{{ $partners := where $site.Pages "Params.category" . }}
 {{ if $partners }}
 <section class="partners-group partner-{{ . }}">
 <h3 class="fancy">
