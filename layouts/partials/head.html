@@ -19,7 +19,16 @@
 	{{ hugo.Generator }}
 	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-	<title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
+	<title>
+		{{- block "title" . -}}
+			{{- .Site.Title -}}
+			{{ with .Params.Title }}
+				{{- " | " }}{{ . -}}
+			{{ else }}
+				{{- " | " }}{{ .Params.Name -}}
+			{{ end }}
+		{{- end -}}
+	</title>
 
 	{{ if .Site.Params.appleTouchIcon }}
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.Params.appleTouchIcon }}">
