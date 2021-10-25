@@ -16,7 +16,8 @@
 }
 
 /* gold * 0.75 */
-.partners-group.partner-silver ul li {
+.partners-group.partner-silver ul li,
+.partners-group.partner-remo-japan ul li {
   flex-basis: 240px;
   height: 135px;
 }

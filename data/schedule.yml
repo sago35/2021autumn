@@ -17,8 +17,8 @@
       talk: crafting-shell
     - slot: lunch
       talk: lunch
-    - slot: sponsor-remo
-      talk: sponsor-remo
+    - slot: sponsor-remo-japan
+      talk: sponsor-remo-japan
     - slot: understanding-go-context
       talk: understanding-go-context
     - slot: go-stdlib-font-image
