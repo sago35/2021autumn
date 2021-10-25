@@ -1,6 +1,6 @@
 ---
 key: sponsor-remo
-title: 'スポンサーセッション: Remo'
+title: 'Sponsor Session: Remo Japan'
 id: sponsor-remo
 format: conference
 talkType: sponsor_session
