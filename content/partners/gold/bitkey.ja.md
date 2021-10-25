@@ -1,6 +1,6 @@
 ---
 key: bitkey
-title: Bitkey Inc.
+title: 株式会社ビットキー
 website: https://bitkey.co.jp/
 category: gold
 order: 4

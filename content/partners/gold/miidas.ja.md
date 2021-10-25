@@ -1,6 +1,6 @@
 ---
 key: miidas
-title: Miidas Co., Ltd.
+title: ミイダス株式会社
 website: https://miidas.co.jp/
 category: gold
 order: 1

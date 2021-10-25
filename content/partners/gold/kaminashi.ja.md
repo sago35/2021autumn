@@ -1,6 +1,6 @@
 ---
 key: kaminashi
-title: kaminashi, Inc.
+title: 株式会社カミナシ
 website: https://corp.kaminashi.jp/
 category: gold
 order: 1
