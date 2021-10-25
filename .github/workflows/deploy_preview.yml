@@ -22,7 +22,7 @@ jobs:
       - name: Build pages
         run: hugo -v --baseURL="$baseURL"
         env:
-          baseURL: https://${{ steps.preview_repo.outputs.owner }}.github.io/${{ steps.preview_repo.outputs.name }}
+          baseURL: ${{ steps.preview_repo.outputs.gh_page_url }}
 
       - name: Get GitHub token
         id: get_token
