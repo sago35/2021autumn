@@ -2,7 +2,7 @@
 key: _achiku
 id: _achiku
 name: Akira Chiku
-company: Kanmu, Inc.
+company: 株式会社カンム
 photoURL: /images/speakers/_achiku.jpg
 socials:
 - icon: twitter
