@@ -1,6 +1,6 @@
 ---
 key: sponsor-miidas
-title: スポンサーセッション
+title: Goで開発したサービスを6年間運用した"しくじり"
 id: sponsor-miidas
 format: conference
 talkType: sponsor_session
