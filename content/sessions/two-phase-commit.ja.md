@@ -1,6 +1,6 @@
 ---
 key: two-phase-commit
-title: The use of goroutines and channels in the example of two-phase commit
+title: 二相コミットなどの具体例に見るゴルーチンとチャネルの使いどころ
 id: two-phase-commit
 format: conference
 talkType: ""
@@ -8,7 +8,6 @@ allroom: false
 speakers:
 - kojiaomatsu
 ---
-Through actual examples of the use of goroutines and channels that I have encountered through my work, I will consider their general use.
+実務で実際に遭遇したゴルーチンとチャネルの使用事例を通して、その一般的な使いどころを考えます。
 
-To reduce the load on CloudSQL, we migrated some huge data to Datastore.
-I will show the implementation of two-phase commit in the go language that I did.
+CloudSQLとDatastore双方のデータの更新のためにGo言語で二相コミットの実装をした事例や、待ち時間がかかる処理をゴルーチンに逃がしAPI呼び出しのレイテンシを改善した事例を紹介します。
