@@ -1,6 +1,6 @@
 ---
 key: go-scheduling
-title: Understanding the Go scheduling - Goにおけるスケジューリングの体系化(仮)
+title: スケジューラから学ぶGoランタイム 〜 code reading of runtime pkg〜
 id: go-scheduling
 format: conference
 talkType: ""
