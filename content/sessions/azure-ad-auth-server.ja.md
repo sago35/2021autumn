@@ -1,6 +1,6 @@
 ---
 key: azure-ad-auth-server
-title: (仮) Azure ADに完全対応した認証プロキシ・webサーバを開発してみた話
+title: Azure AD対応の認証プロキシサーバをGoで作ってみた話
 id: azure-ad-auth-server
 format: conference
 talkType: ""
