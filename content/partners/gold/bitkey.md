@@ -4,7 +4,7 @@ title: Bitkey Inc.
 website: https://bitkey.co.jp/
 category: gold
 order: 4
-logo: /images/partners/bitkey.svg
+logo: /images/partners/bitkey.png
 lang: ja
 ---
 
