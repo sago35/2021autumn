@@ -1,11 +1,11 @@
 - key: track-a
   label: Track A
   description: YouTube Live
-  url: # TBD
+  url: https://youtu.be/EVUCSrj83uM
 - key: track-b
   label: Track B
   description: YouTube Live
-  url: # TBD
+  url: https://youtu.be/w2m4u3wruJY
 - key: remo
   label: Remo
   description: Remo
