@@ -104,3 +104,10 @@ other = "グリーン"
 
 [partner_speakers]
 other = "スポンサーセッションスピーカー"
+
+##########
+# Staffs #
+##########
+
+[staff_green]
+other = "グリーンスポンサースタッフ"

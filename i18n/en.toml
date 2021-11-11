@@ -101,3 +101,10 @@ other = "Green"
 
 [partner_speakers]
 other = "Partner Session Speakers"
+
+##########
+# Staffs #
+##########
+
+[staff_green]
+other = "Green Partner Staffs"

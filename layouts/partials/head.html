@@ -58,6 +58,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="/theme.css" media="all">
 	<link rel="stylesheet" href="/css/custom.css" media="all">
+	
+	{{ $sass := resources.Get "scss/index.scss" }}
+	{{ $style := $sass | resources.ToCSS }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="all">
 
 	{{ $sass := resources.Get "scss/index.scss" }}
 	{{ $style := $sass | resources.ToCSS }}

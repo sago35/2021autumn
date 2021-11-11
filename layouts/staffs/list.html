@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+{{ $pages := .Site.RegularPages }}
+{{ range .Site.Home.Translations }}
+  {{ $pages = $pages | lang.Merge .Site.RegularPages }}
+{{ end }}
+
+{{ $staffs := where (where $pages ".Section" "staffs") "Kind" "page" }}
+{{ $greenStaffs := where $staffs "Params.isGreen" true }}
+
+<section>
+  <div class="staffs js-shuffle">
+    {{ range ($staffs | symdiff $greenStaffs) }}
+      {{ partial "staff.html" . }}
+    {{ end }}
+  </div>
+</section>
+
+<h2>{{ i18n "staff_green" }}</h2>
+
+<section>
+  <div class="staffs js-shuffle">
+    {{ range $greenStaffs }}
+      {{ partial "staff.html" . }}
+    {{ end }}
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('.js-shuffle')
+    .forEach(container => {
+      // Fisher-Yates shuffle
+			let i = container.childElementCount;
+      while (--i) {
+        let j = Math.floor(Math.random() * i);
+        container.appendChild(container.children[j]);
+      }
+    });
+</script>
+
+{{ end }}
