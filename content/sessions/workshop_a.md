@@ -4,6 +4,7 @@ title: "TinyGo Workshop: A"
 id: workshop_a
 format: conference
 talkType: ""
+inner: true
 allroom: false
 speakers:
 - sago35tk

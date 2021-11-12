@@ -83,6 +83,8 @@
       talk: go-unicode
   - room: remo
     slots:
+    - slot: officehour
+      talk: officehour
     - slot: workshop_a
       talk: workshop_a
     - slot: workshop_b

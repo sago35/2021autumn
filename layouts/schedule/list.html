@@ -93,7 +93,7 @@
 		{{ $hh := index $time 0 }}
 		{{ $mm := index $time 1 }}
 
-		<div class="session {{if $sessionPage.Params.inner}}inner{{end}} {{if $sessionPage.Params.behind}}behind{{end}} {{if $sessionPage.Params.allroom}}allroom{{end}} format-{{$sessionPage.Params.format}} tag-{{ anchorize (delimit ($sessionPage.Params.tags | default (slice)) " " ) }}"
+		<div class="session {{if $sessionPage.Params.inner}}inner{{end}} {{if $sessionPage.Params.behind}}behind{{end}} {{if $sessionPage.Params.allroom}}allroom{{end}} format-{{$sessionPage.Params.format}} tag-{{ anchorize (delimit ($sessionPage.Params.tags | default (slice)) " " ) }} {{if $sessionPage.Params.fill}}fill{{end}}"
 		style="--room: {{ $index }}; --row-start: {{ $slot.row.start }}; --row-end: {{ $slot.row.end }};">
 
 		<span class="start">

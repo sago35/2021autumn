@@ -46,6 +46,12 @@
   row:
     start: 13
     end: 19
+- key: officehour
+  start: '13:05'
+  duration: 240
+  row:
+    start: 19
+    end: 36
 - key: sponsor-remo-japan
   start: "13:05"
   duration: 5

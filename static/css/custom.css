@@ -121,11 +121,6 @@ h3:focus {
   height: 30px;
 }
 
-.section.schedule .session.inner {
-  background-color: #ffffff;
-  transform: scale(0.9, 0.9);
-}
-
 .section.schedule .session > a .speakers {
   background-color: rgba(255, 255, 255, 0);
 }
@@ -213,10 +208,6 @@ h3:focus {
 
   .slot .slot-end {
     display: none;
-  }
-
-  .section.schedule .session.inner {
-    transform: scale(1, 1);
   }
 }
 

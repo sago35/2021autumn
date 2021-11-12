@@ -1,6 +1,8 @@
 {{ if ne .Params.TalkType "sponsor_session"}}
-  {{ if eq .Params.format "organize" }}
+  {{ if .Params.link }}
     <a {{ if .Params.link}}href="{{ .Params.link }}"{{end}}>
+  {{ else if eq .Params.format "organize" }}
+    <a>
   {{ else if eq .Params.format "handson" }}
     {{ $firstSpeakerPage := index (where $.Site.RegularPages "Params.key" "eq" (index .Params.speakers 0)) 0 }}
     <a href="{{ $firstSpeakerPage.Permalink }}">
