@@ -50,11 +50,14 @@ icon="right" %}}
 {{% /home-speakers %}}
 -->
 
+{{% live-panels %}}
+
 {{% home-tickets %}}
+
 # 参加登録
 
 <ul>
-<li>{{<ticket name="セッション"
+<li>{{<ticket name="オンライン会場"
            price="無料"
            url="https://gocon.connpass.com/event/213865/">}}
 </li>

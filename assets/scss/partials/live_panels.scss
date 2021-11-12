@@ -1,0 +1,16 @@
+.shortcodes_livePanels {
+  &_panels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-4);
+    margin-bottom: var(--section-margin);
+  }
+
+  &_timeline {
+    width: 45%;
+    @media (max-width: 52rem) {
+      width: 80%;
+    }
+  }
+}

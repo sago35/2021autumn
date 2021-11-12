@@ -1,3 +1,9 @@
+@import "variables.scss";
+
+@import "content/index.scss";
+
 @import "partials/staff.scss";
+@import "partials/live_panels.scss";
+
 @import "staffs/list.scss";
 @import "schedule/list.scss";

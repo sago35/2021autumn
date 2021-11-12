@@ -47,12 +47,14 @@ icon="right" %}}
 {{% /home-speakers %}}
 -->
 
+{{% live-panels %}}
 
 {{% home-tickets %}}
+
 # Registration
 
 <ul>
-<li>{{<ticket name="Sessions"
+<li>{{<ticket name="Virtual Venue"
            price="Free"
            url="https://gocon.connpass.com/event/213865/">}}
 </li>
