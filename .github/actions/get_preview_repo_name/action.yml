@@ -33,4 +33,4 @@ outputs:
     value: ${{ steps.owner.outputs.result }}/${{ steps.repo.outputs.result }}
   gh_page_url:
     description: GitHub Pages URL
-    value: https://${{ steps.owner.outputs.result }}.github.io/${{ steps.repo.outputs.result }}
+    value: https://${{ steps.owner.outputs.result }}.github.io/${{ steps.repo.outputs.result }}/
