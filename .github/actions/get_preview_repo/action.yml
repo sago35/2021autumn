@@ -1,5 +1,5 @@
-name: Preview Repository Name
-description: Get preview repository name
+name: Get Preview Repository
+description: Get preview repository info
 runs:
   using: composite
   steps:

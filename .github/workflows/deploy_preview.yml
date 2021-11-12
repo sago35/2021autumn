@@ -13,7 +13,7 @@ jobs:
           submodules: true
 
       - name: Get preview repo name
-        uses: ./.github/actions/get_preview_repo_name
+        uses: ./.github/actions/get_preview_repo
         id: preview_repo
 
       - name: Install Hugo
