@@ -76,6 +76,9 @@
     }
     </style>
 
+	{{ template "_internal/opengraph.html" . }}
+	{{ template "_internal/twitter_cards.html" . }}
+
 	{{ block "headextra" . }}
 	<!-- No extra headextra -->
 	{{ end }}
