@@ -1,0 +1,23 @@
+.shortcodes_nextEvent {
+  margin: var(--space-4) auto;
+  padding: var(--space-4);
+  max-width: 42rem;
+  font-size: 120%;
+  text-align: center;
+  border: var(--space-1) solid var(--primary-color);
+  border-radius: var(--space-2);
+  background-color: #efefef;
+  
+  .shortcodes_nextEvent_name {
+    font-weight: 600;
+    color: var(--primary);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+  }
+}

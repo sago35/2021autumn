@@ -25,6 +25,8 @@ Go Conferenceは半年に1回行われるプログラミング言語Goに関す�
 
 {{% /home-info %}}
 
+{{% next-event %}}
+
 <!-- ... -->
 <!-- ... -->
 <!-- ... -->
@@ -49,8 +51,6 @@ icon="right" %}}
 
 {{% /home-speakers %}}
 -->
-
-{{% live-panels %}}
 
 {{% home-tickets %}}
 

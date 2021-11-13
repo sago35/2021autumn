@@ -27,6 +27,12 @@ other = "Call for Proposals!"
 [home_cfp_action]
 other = "Submit"
 
+[home_event_finished]
+other = "{{.Name}} has ended."
+
+[home_see_you_next_event]
+other = "See you at {{.Name}}!"
+
 ##########
 # Footer #
 ##########

@@ -27,6 +27,12 @@ other = "トーク募集中！"
 [home_cfp_action]
 other = "申し込む"
 
+[home_event_finished]
+other = "{{.Name}}は終了しました。"
+
+[home_see_you_next_event]
+other = "{{.Name}}でお待ちしています。"
+
 ##########
 # Footer #
 ##########
