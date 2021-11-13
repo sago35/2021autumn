@@ -58,6 +58,10 @@ icon="right" %}}
            price="Free"
            url="https://gocon.connpass.com/event/213865/">}}
 </li>
+<li>{{<ticket name="After Party"
+           price="Free"
+           url="https://gocon.connpass.com/event/230304/">}}
+</li>
 </ul>
 
 {{% /home-tickets %}}

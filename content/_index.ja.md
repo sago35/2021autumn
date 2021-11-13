@@ -61,6 +61,10 @@ icon="right" %}}
            price="無料"
            url="https://gocon.connpass.com/event/213865/">}}
 </li>
+<li>{{<ticket name="懇親会"
+           price="無料"
+           url="https://gocon.connpass.com/event/230304/">}}
+</li>
 </ul>
 
 {{% /home-tickets %}}
