@@ -6,6 +6,19 @@
     gap: var(--space-4);
     margin-bottom: var(--section-margin);
   }
+  
+  &_nowPlaying {
+    text-align: center;
+    font-size: 115%;
+    color: white;
+    background-color: #022E40;
+    padding: var(--space-2);
+    border-radius: var(--space-2) var(--space-2) 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 560px;
+  }
 
   &_timeline {
     width: 45%;
