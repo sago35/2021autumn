@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - sanpo_shiho
+videoId: EVUCSrj83uM?start=29525
 ---
 golang/mockというinterface定義からモックを生成するGoのツールがあります。
 このLTではgolang/mockの生成と管理に特化したgomockhandlerというツールの紹介をします。

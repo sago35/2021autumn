@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - bmf_san
+videoId: EVUCSrj83uM?start=29236
 ---
 Goの標準パッケージであるnet/httpを使ってHTTPルーターを自作する方法についてお話します。
 

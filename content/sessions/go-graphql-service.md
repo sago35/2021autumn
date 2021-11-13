@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - flum_
+videoId: w2m4u3wruJY?start=10165
 ---
 Rettyの新規事業Retty OrderはバックエンドにGoとGraphQLを採用し開発を行っています。
 新規事業は刻々と状況が変わっていきます。ただ機能を開発するだけではなく、品質と速度の両立や今後の運用やスケールを見据えた開発を行っていく必要があります。

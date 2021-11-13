@@ -8,4 +8,5 @@ partner: dena
 allroom: false
 speakers:
 - motohiro_nakamura
+videoId: EVUCSrj83uM?start=25026
 ---

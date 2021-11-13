@@ -8,6 +8,7 @@ partner: miidas
 allroom: false
 speakers:
 - isozaki
+videoId: EVUCSrj83uM?start=1000
 ---
 転職サービス「ミイダス」ではリリース当初からGoを採用し、現在運用6年目です。売上も0=>30億を超える規模のサービスになっています。
 

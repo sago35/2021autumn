@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - hgsgtk
+videoId: EVUCSrj83uM?start=30117
 ---
 Webアプリ開発をしている現場ではUIレベルのブラウザ操作を自動化することによって実現する自動テストの作成は馴染みが深いものです。
 

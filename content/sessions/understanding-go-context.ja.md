@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - it_guitar
+videoId: EVUCSrj83uM?start=11862
 ---
 Goではcontext.Contextを利用することで、キャンセルやタイムアウトを効率よく安全に実装することができます。
 ContextはDBクライアントなど各種ライブラリを使う際に、対応する関数の引数にするだけでも動作します。

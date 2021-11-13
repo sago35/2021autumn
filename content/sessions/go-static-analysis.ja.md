@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - d_tutuz
+videoId: EVUCSrj83uM?start=29833
 ---
 静的解析を行うことで、プログラムの品質を高めることができます。Goでは `golang.org/x/tools/go/analysis` というパッケージを用いることによって、静的解析にあまりなじみがない開発者も、字句解析や構文解析を自前で実装せずに、静的解析モジュールを実装できます。
 

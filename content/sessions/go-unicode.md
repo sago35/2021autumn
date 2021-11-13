@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - ymtyta
+videoId: w2m4u3wruJY?start=17439
 ---
 SpannerとGoでサービス開発をしたときに、「🪦問題」に遭遇しました。
 🪦が\U0001faa6になってしまった事象に遭遇したところから、Unicodeのリリースサイクルと、Goの追随状況、Unicodeサポート方法、spanner.NullStringを通してfmt.Sprintfの実装方法を調べました。

@@ -7,4 +7,5 @@ talkType: sponsor_session
 partner: remo-japan
 allroom: false
 speakers: []
+videoId: EVUCSrj83uM?start=11538
 ---

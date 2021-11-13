@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - k1low
+videoId: w2m4u3wruJY?start=8334
 ---
 Go 1.16から追加されたio/fsパッケージが提供しているインターフェースについて、皆さんはどのような目的で活用していますか？
 

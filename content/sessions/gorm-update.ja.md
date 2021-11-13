@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - sntree_suzunoki
+videoId: EVUCSrj83uM?start=28629
 ---
 RettyではGo製のマイクロサービスでGORMを採用していますが、Version2リリースではいろいろなつまづきがあり苦労しました。
 バージョンアップの過程での大変だったことや学んだことを共有します。

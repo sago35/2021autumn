@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - kojiaomatsu
+videoId: w2m4u3wruJY?start=11353
 ---
 Through actual examples of the use of goroutines and channels that I have encountered through my work, I will consider their general use.
 

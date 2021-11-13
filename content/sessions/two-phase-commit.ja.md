@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - kojiaomatsu
+videoId: w2m4u3wruJY?start=11353
 ---
 実務で実際に遭遇したゴルーチンとチャネルの使用事例を通して、その一般的な使いどころを考えます。
 

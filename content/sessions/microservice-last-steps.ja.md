@@ -7,6 +7,7 @@ talkType: ""
 allroom: false
 speakers:
 - kenta_moriwaki
+videoId: EVUCSrj83uM?start=17084
 ---
 Rettyではおよそ10年以上動いているPHPのモノリスから、Goベースのマイクロサービスへの移行を続けています。
 長く開発が行われていましたが、2021年の3月から部分的に本番で運用されることになりました。

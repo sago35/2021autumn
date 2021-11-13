@@ -8,6 +8,7 @@ partner: bitkey
 allroom: false
 speakers:
   - noriki_takahashi
+videoId: EVUCSrj83uM?start=26222
 ---
 モノレポ(Monorepo)とは、複数のモジュールやパッケージを単一のレポジトリで管理する手法です。
 
