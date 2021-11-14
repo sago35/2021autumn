@@ -1,0 +1,35 @@
+body.sessions {
+  .talkLinks {
+    margin: var(--space-4) 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    .talkLinks_link {
+      display: inline;
+      margin-left: var(--space-3);
+      margin-right: var(--space-3);
+
+      a {
+        display: inline-flex;
+        align-items: center;
+
+        margin: var(--space-4);
+        padding: .25em 1em;
+        border-radius: 1em;
+
+        background: var(--primary);
+        color: var(--primary-txt);
+        font-size: 125%;
+        
+        .icon {
+          width: 1em;
+        }
+        
+        &:hover {
+          box-shadow: .0625em .0625em .125em var(--darken-3);
+        }
+      }
+    }
+  }
+}

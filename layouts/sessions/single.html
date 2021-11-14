@@ -66,14 +66,21 @@
 			        title="YouTube Video"></iframe>
 		</div>
 		{{ end }}
+	</div>
 
-		{{ if .Params.presentation }}
-		<a class="social-slides"
-		   href="{{ .Params.presentation }}"
-		   rel="noreferrer"
-		   target="_blank">Voir les slides</a>
-		{{ end }}
-
+	<div>
+		<ul class="talkLinks">
+			{{ if .Params.Slides }}
+				<li class="talkLinks_link">
+					<a href="{{ .Params.Slides }}"
+						rel="noreferrer"
+						target="_blank">
+						<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 16.933 16.933"><g transform="translate(-.334 .167)"><rect style="fill:#fff;fill-opacity:0;fill-rule:nonzero;stroke:currentColor;stroke-width:1.05833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="15" height="11.25" x="1.301" y="2.675" ry=".087" fill="none"/><rect style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" width="7" height="1" x="5.301" y="6.502" ry="0"/><rect style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" width="9" height="1" x="4.301" y="9.166" ry="0"/></g></svg>
+						{{ i18n "session_slides" }}
+					</a>
+				</li>
+			{{ end }}
+		</ul>
 	</div>
 
 </section>

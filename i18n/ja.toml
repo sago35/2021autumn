@@ -117,3 +117,10 @@ other = "スポンサーセッションスピーカー"
 
 [staff_green]
 other = "グリーンスポンサースタッフ"
+
+############
+# Sessions #
+############
+
+[session_slides]
+other = "スライド"
