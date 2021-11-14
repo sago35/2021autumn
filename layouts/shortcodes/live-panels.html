@@ -52,7 +52,7 @@ const tracks = [
       {
         "start": "10:00",
         "title": "オープニング",
-        "key": "opening"
+        "key": null
       },
       {
         "start": "10:10",
@@ -67,7 +67,7 @@ const tracks = [
       {
         "start": "10:50",
         "title": "休憩",
-        "key": "break"
+        "key": null
       },
       {
         "start": "11:00",
@@ -82,7 +82,7 @@ const tracks = [
       {
         "start": "12:00",
         "title": "ランチ休憩",
-        "key": "lunch"
+        "key": null
       },
       {
         "start": "13:05",
@@ -102,7 +102,7 @@ const tracks = [
       {
         "start": "14:10",
         "title": "休憩",
-        "key": "break"
+        "key": null
       },
       {
         "start": "14:20",
@@ -122,7 +122,7 @@ const tracks = [
       {
         "start": "15:20",
         "title": "休憩",
-        "key": "break"
+        "key": null
       },
       {
         "start": "15:40",
@@ -137,7 +137,7 @@ const tracks = [
       {
         "start": "16:40",
         "title": "休憩",
-        "key": "break"
+        "key": null
       },
       {
         "start": "16:50",
@@ -152,7 +152,7 @@ const tracks = [
       {
         "start": "17:30",
         "title": "休憩",
-        "key": "break"
+        "key": null
       },
       {
         "start": "17:40",
@@ -197,7 +197,7 @@ const tracks = [
       {
         "start": "18:30",
         "title": "クロージング",
-        "key": "closing"
+        "key": null
       }
     ]
   },
@@ -212,7 +212,7 @@ const tracks = [
       {
         "start": "12:00",
         "title": "ランチ休憩",
-        "key": "lunch"
+        "key": null
       },
       {
         "start": "13:10",
@@ -227,7 +227,7 @@ const tracks = [
       {
         "start": "14:10",
         "title": "休憩",
-        "key": "break"
+        "key": null
       },
       {
         "start": "14:20",
@@ -247,7 +247,7 @@ const tracks = [
       {
         "start": "15:20",
         "title": "休憩",
-        "key": "break"
+        "key": null
       },
       {
         "start": "15:40",
@@ -262,7 +262,7 @@ const tracks = [
       {
         "start": "16:40",
         "title": "終了",
-        "key": "break"
+        "key": null
       }
     ]
   }
@@ -294,7 +294,7 @@ setTimeout(() => {
     let content;
     if (!session) {
       content = document.createTextNode('Waiting...');
-    } else if (session.key === 'break') {
+    } else if (!session.key) {
       content = document.createTextNode(session.title);
     } else {
       content = document.createElement('a');
