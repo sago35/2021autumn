@@ -8,6 +8,7 @@ allroom: false
 speakers:
 - bmf_san
 videoId: EVUCSrj83uM?start=29236
+slides: https://speakerdeck.com/bmf_san/httpdetukuruhttprutazi-zuo-ru-men
 ---
 Goの標準パッケージであるnet/httpを使ってHTTPルーターを自作する方法についてお話します。
 

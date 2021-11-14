@@ -8,6 +8,7 @@ allroom: false
 speakers:
 - kojiaomatsu
 videoId: w2m4u3wruJY?start=11353
+slides: https://speakerdeck.com/kojiaomatsu/2xiang-komitutonadofalseshi-li-nijian-rugorutintotiyanerufalseshi-idokoro
 ---
 Through actual examples of the use of goroutines and channels that I have encountered through my work, I will consider their general use.
 

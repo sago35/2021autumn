@@ -8,6 +8,7 @@ allroom: false
 speakers:
 - sekino_pii
 videoId: EVUCSrj83uM?start=23229
+slides: https://speakerdeck.com/sryoya/floating-point-numbers-and-decimal-in-go
 ---
 プログラミングにおける小数の扱いは、注意が必要な定番のポイントだと思います。特に、精緻な計算が必要な処理では、桁落ちやオーバーフローを考慮することになります。
 

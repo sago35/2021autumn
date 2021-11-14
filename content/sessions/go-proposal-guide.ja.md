@@ -8,6 +8,7 @@ allroom: false
 speakers:
 - __syumai
 videoId: EVUCSrj83uM?start=28299
+slides: https://speakerdeck.com/syumai/gofalseproposalfalsezhui-ifang-gaido
 ---
 Go projectにおいて、何か言語、ライブラリ、ツールへの重要な変更が行われる場合は、これに対して議論を行うためのデザインが必要となります。
 この時、変更の提案元がGo Teamであろうと、外部からであろうと、同じプロセスを経ます。

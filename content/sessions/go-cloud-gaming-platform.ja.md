@@ -8,6 +8,7 @@ allroom: false
 speakers:
 - castanea
 videoId: w2m4u3wruJY?start=557
+slides: https://speakerdeck.com/castaneai/cloud-gaming-platform-with-go
 ---
 私たちはクラウドゲーミングエンジンをフルスクラッチで開発し2021年に既存のエンジンを置き換えました。
 そのバックエンドの大半はGoで開発しています。

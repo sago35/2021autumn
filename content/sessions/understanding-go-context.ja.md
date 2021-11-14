@@ -8,6 +8,7 @@ allroom: false
 speakers:
 - it_guitar
 videoId: EVUCSrj83uM?start=11862
+slides: https://www.slideshare.net/ssuserebd24d1/go-conference-2021-autumn-context
 ---
 Goではcontext.Contextを利用することで、キャンセルやタイムアウトを効率よく安全に実装することができます。
 ContextはDBクライアントなど各種ライブラリを使う際に、対応する関数の引数にするだけでも動作します。

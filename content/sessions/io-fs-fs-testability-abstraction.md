@@ -8,6 +8,7 @@ allroom: false
 speakers:
 - k1low
 videoId: w2m4u3wruJY?start=8334
+slides: https://speakerdeck.com/k1low/go-conference-2021-autumn-online
 ---
 Go 1.16から追加されたio/fsパッケージが提供しているインターフェースについて、皆さんはどのような目的で活用していますか？
 
