@@ -23,4 +23,6 @@ TinyGo は Go でマイコンや WASM 向けのバイナリを出力するため
 このイベントは日本語で開催されます。  
 This event will be held in Japanese.
 
+ハンズオン資料: https://github.com/sago35/tinygo-workshop
+
 13:10 - 14:10 の分を以下でライブ配信／アーカイブ配信します。
