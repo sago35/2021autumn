@@ -8,7 +8,7 @@ inner: true
 allroom: false
 speakers:
 - sago35tk
-videoId: 6veEA0fsYuI
+videoId: 6veEA0fsYuI?start=1023
 ---
 
 イベントページ: https://gocon.connpass.com/event/226098/
