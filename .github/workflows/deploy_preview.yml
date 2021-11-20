@@ -75,6 +75,6 @@ jobs:
           pr_number: ${{ github.event.pull_request.number }}
           body: >
             "😎 Browse the preview: ${{ steps.preview_repo.outputs.gh_page_url }}\n\n
-            デプロイには時間が掛かることがあります。404が表示されたら数分ほどお待ちください。"
+            数分待っても404が表示される場合はプレビュー用のリポジトリにコミットを追加してみてください。"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
