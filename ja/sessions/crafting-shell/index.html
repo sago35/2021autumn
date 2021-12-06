@@ -10,10 +10,10 @@
 
 	
 
-	<meta name="generator" content="Hugo 0.88.1" />
+	<meta name="generator" content="Hugo 0.89.4" />
 	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-	<title>Go Conference 2021 Autumn  | Learning Computer Systems by Crafting: Shell （作って学ぶシェル）</title>
+	<title>Go Conference 2021 Autumn | Learning Computer Systems by Crafting: Shell （作って学ぶシェル）</title>
 
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="https://gocon.jp/2021autumn/apple-touch-icon.png">
@@ -35,11 +35,17 @@
 	
 	
 
-	
-
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://gocon.jp/2021autumn/theme.css" media="all">
 	<link rel="stylesheet" href="https://gocon.jp/2021autumn/css/custom.css" media="all">
+	
+	
+	
+	<link rel="stylesheet" href="https://gocon.jp/2021autumn/scss/index.css" media="all">
+
+	
+	
+	<link rel="stylesheet" href="https://gocon.jp/2021autumn/scss/index.css" media="all">
 
     <style>
         :root{
@@ -54,6 +60,21 @@
             color: var(--base);
     }
     </style>
+
+	<meta property="og:title" content="Learning Computer Systems by Crafting: Shell （作って学ぶシェル）" />
+<meta property="og:description" content="Bashなどのシェルの知識をどこで学ぶか、ネット上でたまに議論になるネタです。空気のような存在であるからこそ存在に気づきにくいシェルを、Goを使ってPOSIXシェルのサブセットを作りながら、シェルの役割や機能について学びます。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gocon.jp/2021autumn/ja/sessions/crafting-shell/" /><meta property="og:image" content="https://gocon.jp/2021autumn/images/social-share.png"/><meta property="article:section" content="sessions" />
+
+<meta property="og:site_name" content="Go Conference 2021 Autumn" />
+
+
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gocon.jp/2021autumn/images/social-share.png"/>
+
+<meta name="twitter:title" content="Learning Computer Systems by Crafting: Shell （作って学ぶシェル）"/>
+<meta name="twitter:description" content="Bashなどのシェルの知識をどこで学ぶか、ネット上でたまに議論になるネタです。空気のような存在であるからこそ存在に気づきにくいシェルを、Goを使ってPOSIXシェルのサブセットを作りながら、シェルの役割や機能について学びます。"/>
+
 
 	
 	
@@ -236,6 +257,18 @@
 				
 				</li>
 				
+				<li class="" >
+				
+				<a href="https://gocon.jp/2021autumn/ja/speakers/">スピーカー</a>
+				
+				</li>
+				
+				<li class="" >
+				
+				<a href="https://gocon.jp/2021autumn/ja/staffs/">スタッフ</a>
+				
+				</li>
+				
 			</ul>
 
 			<ul class="languages">
@@ -287,18 +320,26 @@
 			<ul class="speakers">
 				
 				<li>
-					<a class="visually-hidden" aria-hidden="true" href="https://gocon.jp/2021autumn/speakers/shibu_jp">渋川よしき</a>
-					<a class="speaker" href="https://gocon.jp/2021autumn/speakers/shibu_jp">
-						<div class="speaker-img" style="background-image: url(https://gocon.jp/2021autumn//images/speakers/shibu_jp.jpeg);"></div>
-						<strong class="speaker-name">渋川よしき</strong>
-						<span class="speaker-country"></span>
-						<div class="speaker-company">フューチャー株式会社</div>
-					</a>
+					<a class="visually-hidden" href="https://gocon.jp/2021autumn/ja/speakers/shibu_jp/">渋川よしき</a>
+<a class="speaker" href="https://gocon.jp/2021autumn/ja/speakers/shibu_jp/">
+	
+	<div role="presentation" class="speaker-img" style="background-image: url(https://gocon.jp/2021autumn//images/speakers/shibu_jp.jpeg);"></div>
+	
+	<div class="info">
+		<strong class="speaker-name">渋川よしき</strong>
+		<div class="speaker-company">フューチャー株式会社</div>
+		<span class="speaker-country"></span>
+	</div>
+</a>
 				</li>
 				
 			</ul>
-			<div class="content"><p>Bashなどのシェルの知識をどこで学ぶか、ネット上でたまに議論になるネタです。空気のような存在であるからこそ存在に気づきにくいシェルを、Goを使ってPOSIXシェルのサブセットを作りながら、シェルの役割や機能について学びます。</p>
-</div>
+			<div class="content">
+				<p>Bashなどのシェルの知識をどこで学ぶか、ネット上でたまに議論になるネタです。空気のような存在であるからこそ存在に気づきにくいシェルを、Goを使ってPOSIXシェルのサブセットを作りながら、シェルの役割や機能について学びます。</p>
+
+			</div>
+
+				
 		</div>
 
 	</div>
@@ -306,9 +347,27 @@
 
 	<div class="media">
 		
-
+		<div class="video" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe src="//www.youtube.com/embed/EVUCSrj83uM?start=6450"
+			        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen
+			        title="YouTube Video"></iframe>
+		</div>
 		
+	</div>
 
+	<div>
+		<ul class="talkLinks">
+			
+				<li class="talkLinks_link">
+					<a href="https://docs.google.com/presentation/d/e/2PACX-1vTjNhH-Fh3WwUe-hLT777OI4YOAxtG5YUqIfEzt63nwyvzNra-7leKPz4YcwWSuHt-jBJxAbuPliWXg/pub?start=false&amp;loop=false&amp;delayms=3000#slide=id.p"
+						rel="noreferrer"
+						target="_blank">
+						<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 16.933 16.933"><g transform="translate(-.334 .167)"><rect style="fill:#fff;fill-opacity:0;fill-rule:nonzero;stroke:currentColor;stroke-width:1.05833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="15" height="11.25" x="1.301" y="2.675" ry=".087" fill="none"/><rect style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" width="7" height="1" x="5.301" y="6.502" ry="0"/><rect style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" width="9" height="1" x="4.301" y="9.166" ry="0"/></g></svg>
+						スライド
+					</a>
+				</li>
+			
+		</ul>
 	</div>
 
 </section>

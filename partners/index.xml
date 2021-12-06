@@ -16,6 +16,15 @@
     </item>
     
     <item>
+      <title>Bitkey Inc.</title>
+      <link>https://gocon.jp/2021autumn/partners/gold/bitkey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/partners/gold/bitkey/</guid>
+      <description>ビットキーは、ID連携・認証、権利処理のための技術「bitkey platform」をベースとし、ソフトウェアを中心とした「homehub」「workhub」や、ハードウェアの「bitlock」シリーズなどを開発し、他社のソフト・ハードウェアとの連携も行っています。これらのプロダクトを通じ、あらゆるサービスやモノを柔軟につなげることで「暮らし」や「仕事」における体験のアップデートを進めています。</description>
+    </item>
+    
+    <item>
       <title>Chompy, Inc.</title>
       <link>https://gocon.jp/2021autumn/partners/bronze/chompy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -30,6 +39,36 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/partners/bronze/classi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kaminashi, Inc.</title>
+      <link>https://gocon.jp/2021autumn/partners/gold/kaminashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/partners/gold/kaminashi/</guid>
+      <description>カミナシは「ノンデスクワーカーの才能を解き放つ」をミッションに、PCやデスクのない現場で働くノンデスクワーカー3,100万人の働き方を、ITの力でスマートにすることを目指す企業です。 2020年6月に提供を開始した現場改善プラットフォーム『カミナシ』は、工場や店舗で行われる日報・作業チェックなど現場の業務フローをノーコードでアプリにできる業務効率化ツールです。 製造や飲食、小売、物流など、業界問わず現場の業務改善や品質向上を実現し、現場のDXに寄与しています。</description>
+    </item>
+    
+    <item>
+      <title>Miidas Co., Ltd.</title>
+      <link>https://gocon.jp/2021autumn/partners/gold/miidas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/partners/gold/miidas/</guid>
+      <description>ミイダス株式会社は、転職・採用サービス「ミイダス」の開発・運営をしているテック企業です。
+2015年のサービス立ち上げ時からGoを導入し、今ではミイダスのバックエンド開発のほぼ全てをGoで開発をしています。
+Goが好きなエンジニアが多く在籍しており、このGo Conferenceのスポンサーの希望があったこともあり、今回初めてスポンサーとして参加させて頂きました。
+ミイダスではGoエンジニア絶賛募集中です。プラットフォーム刷新や新規事業など大きなプロジェクトが動いており、ワクワクできる環境でGoでの開発ができるかと思います。</description>
+    </item>
+    
+    <item>
+      <title>Remo Japan Co., Ltd.</title>
+      <link>https://gocon.jp/2021autumn/partners/bronze/remo-japan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/partners/bronze/remo-japan/</guid>
       <description></description>
     </item>
     
@@ -85,18 +124,6 @@
       
       <guid>https://gocon.jp/2021autumn/partners/silver/hey/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>ミイダス株式会社</title>
-      <link>https://gocon.jp/2021autumn/partners/gold/miidas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/partners/gold/miidas/</guid>
-      <description>ミイダス株式会社は、転職・採用サービス「ミイダス」の開発・運営をしているテック企業です。
-2015年のサービス立ち上げ時からGoを導入し、今ではミイダスのバックエンド開発のほぼ全てをGoで開発をしています。
-Goが好きなエンジニアが多く在籍しており、このGo Conferenceのスポンサーの希望があったこともあり、今回初めてスポンサーとして参加させて頂きました。
-ミイダスではGoエンジニア絶賛募集中です。プラットフォーム刷新や新規事業など大きなプロジェクトが動いており、ワクワクできる環境でGoでの開発ができるかと思います。</description>
     </item>
     
     <item>
@@ -163,15 +190,6 @@ Goが好きなエンジニアが多く在籍しており、このGo Conference�
     </item>
     
     <item>
-      <title>株式会社カミナシ</title>
-      <link>https://gocon.jp/2021autumn/partners/gold/kaminashi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/partners/gold/kaminashi/</guid>
-      <description>カミナシは「ノンデスクワーカーの才能を解き放つ」をミッションに、PCやデスクのない現場で働くノンデスクワーカー3,100万人の働き方を、ITの力でスマートにすることを目指す企業です。 2020年6月に提供を開始した現場改善プラットフォーム『カミナシ』は、工場や店舗で行われる日報・作業チェックなど現場の業務フローをノーコードでアプリにできる業務効率化ツールです。 製造や飲食、小売、物流など、業界問わず現場の業務改善や品質向上を実現し、現場のDXに寄与しています。</description>
-    </item>
-    
-    <item>
       <title>株式会社カンム</title>
       <link>https://gocon.jp/2021autumn/partners/silver/kanmu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -197,15 +215,6 @@ Goが好きなエンジニアが多く在籍しており、このGo Conference�
       <guid>https://gocon.jp/2021autumn/partners/gold/dena/</guid>
       <description>DeNAは、「一人ひとりに　想像を超えるDelightを」のミッションのもと、エンターテインメントと社会課題領域の両軸で事業を展開しています。ゲームを中心としたエンターテインメント領域で培った課題解決メソッドを応用し、社会保障費軽減に向けた持続可能なヘルスケアサービスや、スポーツを軸とした賑わいのあるまちづくりのほか、社会のさまざまな課題解決を支援しています。主な事業領域はゲーム、スポーツ、ライブストリーミング、ヘルスケア、オートモーティブで、バーチャルからリアルな事業まで、一貫して社会に新たなDelightの創造・提供を届けていきます。
 DeNA (pronounced &amp;ldquo;D-N-A&amp;rdquo;) aims to entertain and to serve through our businesses, under our mission to delight people beyond their wildest dreams. DeNA has cultivated expertise and insight in internet and AI technology, and engages in both internet services and businesses in real spaces. Forming alliances with business partners is also a key core competence for DeNA. DeNA&amp;rsquo;s major business areas are in mobile games, sports, live streaming, healthcare, and automotive.</description>
-    </item>
-    
-    <item>
-      <title>株式会社ビットキー</title>
-      <link>https://gocon.jp/2021autumn/partners/gold/bitkey/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/partners/gold/bitkey/</guid>
-      <description>ビットキーは、ID連携・認証、権利処理のための技術「bitkey platform」をベースとし、ソフトウェアを中心とした「homehub」「workhub」や、ハードウェアの「bitlock」シリーズなどを開発し、他社のソフト・ハードウェアとの連携も行っています。これらのプロダクトを通じ、あらゆるサービスやモノを柔軟につなげることで「暮らし」や「仕事」における体験のアップデートを進めています。</description>
     </item>
     
     <item>

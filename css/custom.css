@@ -121,11 +121,6 @@ h3:focus {
   height: 30px;
 }
 
-.section.schedule .session.inner {
-  background-color: #ffffff;
-  transform: scale(0.9, 0.9);
-}
-
 .section.schedule .session > a .speakers {
   background-color: rgba(255, 255, 255, 0);
 }
@@ -214,10 +209,6 @@ h3:focus {
   .slot .slot-end {
     display: none;
   }
-
-  .section.schedule .session.inner {
-    transform: scale(1, 1);
-  }
 }
 
 .bio a,
@@ -267,4 +258,58 @@ body > header nav .languages a.lang {
   /* 言語選択ラベルのベースラインがメニューとずれるのを防ぐ */
   height: auto;
   white-space: nowrap;
+}
+
+/* layouts/speakers/single.html */
+.page.speakers .hero header.no-img {
+  padding-right: 0;
+}
+
+/* layouts/sessions/single.html */
+.page.sessions .talk .detail {
+  border-bottom: none;
+}
+
+.page.sessions .talk .detail .content::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.page.sessions .talk .detail .sponsor-notice {
+  margin: var(--space-4) 0;
+  text-align: center;
+}
+
+.page.sessions .talk .detail .partners-group ul li {
+  margin: 0;
+}
+
+/* layouts/speakers/list.html */
+.section.speakers h2 {
+  padding: 2rem var(--container-margin);
+}
+
+.section.speakers ul.speakers {
+  justify-content: center;
+}
+
+.section.speakers ul.speakers > li {
+  flex: 0 0 335px;
+  max-width: none;
+}
+
+/* layouts/partials/speaker.html */
+.speaker .info {
+  flex: auto;
+  text-align: center;
+}
+
+.speaker .info .speaker-name {
+  font-weight: normal;
+}
+
+.speaker .info .speaker-company {
+  font-size: 85%;
+  color: var(--base-secondary-text);
 }

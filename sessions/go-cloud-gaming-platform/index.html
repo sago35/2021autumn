@@ -10,10 +10,10 @@
 
 	
 
-	<meta name="generator" content="Hugo 0.88.1" />
+	<meta name="generator" content="Hugo 0.89.4" />
 	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-	<title>Go Conference 2021 Autumn  | Cloud Gaming Platform with Go</title>
+	<title>Go Conference 2021 Autumn | Cloud Gaming Platform with Go</title>
 
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="https://gocon.jp/2021autumn/apple-touch-icon.png">
@@ -35,11 +35,17 @@
 	
 	
 
-	
-
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://gocon.jp/2021autumn/theme.css" media="all">
 	<link rel="stylesheet" href="https://gocon.jp/2021autumn/css/custom.css" media="all">
+	
+	
+	
+	<link rel="stylesheet" href="https://gocon.jp/2021autumn/scss/index.css" media="all">
+
+	
+	
+	<link rel="stylesheet" href="https://gocon.jp/2021autumn/scss/index.css" media="all">
 
     <style>
         :root{
@@ -54,6 +60,27 @@
             color: var(--base);
     }
     </style>
+
+	<meta property="og:title" content="Cloud Gaming Platform with Go" />
+<meta property="og:description" content="私たちはクラウドゲーミングエンジンをフルスクラッチで開発し2021年に既存のエンジンを置き換えました。
+そのバックエンドの大半はGoで開発しています。
+クラウドゲーミングはまだ実例も少なく目新しい分野であり、実現のためには多種多様な技術が要求されます。
+そんな中なぜGoを選んだのか、そしてGoの機能やライブラリがどのように既存プラットフォームの課題とクラウドゲーミング実現における課題を解決してくれたのかを技術分野ごとに解説します。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gocon.jp/2021autumn/sessions/go-cloud-gaming-platform/" /><meta property="og:image" content="https://gocon.jp/2021autumn/images/social-share.png"/><meta property="article:section" content="sessions" />
+
+<meta property="og:site_name" content="Go Conference 2021 Autumn" />
+
+
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gocon.jp/2021autumn/images/social-share.png"/>
+
+<meta name="twitter:title" content="Cloud Gaming Platform with Go"/>
+<meta name="twitter:description" content="私たちはクラウドゲーミングエンジンをフルスクラッチで開発し2021年に既存のエンジンを置き換えました。
+そのバックエンドの大半はGoで開発しています。
+クラウドゲーミングはまだ実例も少なく目新しい分野であり、実現のためには多種多様な技術が要求されます。
+そんな中なぜGoを選んだのか、そしてGoの機能やライブラリがどのように既存プラットフォームの課題とクラウドゲーミング実現における課題を解決してくれたのかを技術分野ごとに解説します。"/>
+
 
 	
 	
@@ -236,9 +263,30 @@
 				
 				</li>
 				
+				<li class="" >
+				
+				<a href="https://gocon.jp/2021autumn/speakers/">Speakers</a>
+				
+				</li>
+				
+				<li class="" >
+				
+				<a href="https://gocon.jp/2021autumn/staffs/">Staffs</a>
+				
+				</li>
+				
 			</ul>
 
 			<ul class="languages">
+				
+				<li>
+					<a class="lang lang-ja "
+					   title="ja"
+					   href="https://gocon.jp/2021autumn/ja/sessions/go-cloud-gaming-platform/"
+					   role="radio"
+					   aria-label="[i18n] language_switch ja"
+					aria-checked="false">[i18n] language_switch ja</a>
+				</li>
 				
 			</ul>
 		</nav>
@@ -278,21 +326,29 @@
 			<ul class="speakers">
 				
 				<li>
-					<a class="visually-hidden" aria-hidden="true" href="https://gocon.jp/2021autumn/speakers/castanea">castaneai</a>
-					<a class="speaker" href="https://gocon.jp/2021autumn/speakers/castanea">
-						<div class="speaker-img" style="background-image: url(https://gocon.jp/2021autumn//images/speakers/castanea.png);"></div>
-						<strong class="speaker-name">castaneai</strong>
-						<span class="speaker-country"></span>
-						<div class="speaker-company">Black Inc.</div>
-					</a>
+					<a class="visually-hidden" href="https://gocon.jp/2021autumn/speakers/castanea/">castaneai</a>
+<a class="speaker" href="https://gocon.jp/2021autumn/speakers/castanea/">
+	
+	<div role="presentation" class="speaker-img" style="background-image: url(https://gocon.jp/2021autumn//images/speakers/castanea.png);"></div>
+	
+	<div class="info">
+		<strong class="speaker-name">castaneai</strong>
+		<div class="speaker-company">Black Inc.</div>
+		<span class="speaker-country"></span>
+	</div>
+</a>
 				</li>
 				
 			</ul>
-			<div class="content"><p>私たちはクラウドゲーミングエンジンをフルスクラッチで開発し2021年に既存のエンジンを置き換えました。<br>
+			<div class="content">
+				<p>私たちはクラウドゲーミングエンジンをフルスクラッチで開発し2021年に既存のエンジンを置き換えました。<br>
 そのバックエンドの大半はGoで開発しています。</p>
 <p>クラウドゲーミングはまだ実例も少なく目新しい分野であり、実現のためには多種多様な技術が要求されます。<br>
 そんな中なぜGoを選んだのか、そしてGoの機能やライブラリがどのように既存プラットフォームの課題とクラウドゲーミング実現における課題を解決してくれたのかを技術分野ごとに解説します。</p>
-</div>
+
+			</div>
+
+				
 		</div>
 
 	</div>
@@ -300,9 +356,27 @@
 
 	<div class="media">
 		
-
+		<div class="video" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe src="//www.youtube.com/embed/w2m4u3wruJY?start=557"
+			        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen
+			        title="YouTube Video"></iframe>
+		</div>
 		
+	</div>
 
+	<div>
+		<ul class="talkLinks">
+			
+				<li class="talkLinks_link">
+					<a href="https://speakerdeck.com/castaneai/cloud-gaming-platform-with-go"
+						rel="noreferrer"
+						target="_blank">
+						<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 16.933 16.933"><g transform="translate(-.334 .167)"><rect style="fill:#fff;fill-opacity:0;fill-rule:nonzero;stroke:currentColor;stroke-width:1.05833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="15" height="11.25" x="1.301" y="2.675" ry=".087" fill="none"/><rect style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" width="7" height="1" x="5.301" y="6.502" ry="0"/><rect style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" width="9" height="1" x="4.301" y="9.166" ry="0"/></g></svg>
+						Slides
+					</a>
+				</li>
+			
+		</ul>
 	</div>
 
 </section>

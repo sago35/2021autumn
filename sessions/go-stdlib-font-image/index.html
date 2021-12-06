@@ -10,10 +10,10 @@
 
 	
 
-	<meta name="generator" content="Hugo 0.88.1" />
+	<meta name="generator" content="Hugo 0.89.4" />
 	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-	<title>Go Conference 2021 Autumn  | Goの標準ライブラリで扱うフォントと画像</title>
+	<title>Go Conference 2021 Autumn | Goの標準ライブラリで扱うフォントと画像</title>
 
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="https://gocon.jp/2021autumn/apple-touch-icon.png">
@@ -35,11 +35,17 @@
 	
 	
 
-	
-
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://gocon.jp/2021autumn/theme.css" media="all">
 	<link rel="stylesheet" href="https://gocon.jp/2021autumn/css/custom.css" media="all">
+	
+	
+	
+	<link rel="stylesheet" href="https://gocon.jp/2021autumn/scss/index.css" media="all">
+
+	
+	
+	<link rel="stylesheet" href="https://gocon.jp/2021autumn/scss/index.css" media="all">
 
     <style>
         :root{
@@ -54,6 +60,21 @@
             color: var(--base);
     }
     </style>
+
+	<meta property="og:title" content="Goの標準ライブラリで扱うフォントと画像" />
+<meta property="og:description" content="Goは一見不思議に思えるけどとても実践的なInterfaceを提供していると、私は考えています。net/http はその一例です。APIサーバーを書くソフトウェアエンジニアとして net/http には馴染みがあるのですが、ちょとした興味から触った image/draw や golang.org/x/image/font にも同じように一見不思議に見えるが実践的なInterfaceがあるなと感じました。その内容を、これらのパッケージを初めて見る方たちにも分かりやすいように実例を用いて説明します。最後には、Goの画像処理に興味を持った理由である自作Webサービスも紹介します。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gocon.jp/2021autumn/sessions/go-stdlib-font-image/" /><meta property="og:image" content="https://gocon.jp/2021autumn/images/social-share.png"/><meta property="article:section" content="sessions" />
+
+<meta property="og:site_name" content="Go Conference 2021 Autumn" />
+
+
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gocon.jp/2021autumn/images/social-share.png"/>
+
+<meta name="twitter:title" content="Goの標準ライブラリで扱うフォントと画像"/>
+<meta name="twitter:description" content="Goは一見不思議に思えるけどとても実践的なInterfaceを提供していると、私は考えています。net/http はその一例です。APIサーバーを書くソフトウェアエンジニアとして net/http には馴染みがあるのですが、ちょとした興味から触った image/draw や golang.org/x/image/font にも同じように一見不思議に見えるが実践的なInterfaceがあるなと感じました。その内容を、これらのパッケージを初めて見る方たちにも分かりやすいように実例を用いて説明します。最後には、Goの画像処理に興味を持った理由である自作Webサービスも紹介します。"/>
+
 
 	
 	
@@ -236,9 +257,30 @@
 				
 				</li>
 				
+				<li class="" >
+				
+				<a href="https://gocon.jp/2021autumn/speakers/">Speakers</a>
+				
+				</li>
+				
+				<li class="" >
+				
+				<a href="https://gocon.jp/2021autumn/staffs/">Staffs</a>
+				
+				</li>
+				
 			</ul>
 
 			<ul class="languages">
+				
+				<li>
+					<a class="lang lang-ja "
+					   title="ja"
+					   href="https://gocon.jp/2021autumn/ja/sessions/go-stdlib-font-image/"
+					   role="radio"
+					   aria-label="[i18n] language_switch ja"
+					aria-checked="false">[i18n] language_switch ja</a>
+				</li>
 				
 			</ul>
 		</nav>
@@ -278,18 +320,26 @@
 			<ul class="speakers">
 				
 				<li>
-					<a class="visually-hidden" aria-hidden="true" href="https://gocon.jp/2021autumn/speakers/_achiku">Akira Chiku</a>
-					<a class="speaker" href="https://gocon.jp/2021autumn/speakers/_achiku">
-						<div class="speaker-img" style="background-image: url(https://gocon.jp/2021autumn//images/speakers/_achiku.jpg);"></div>
-						<strong class="speaker-name">Akira Chiku</strong>
-						<span class="speaker-country"></span>
-						<div class="speaker-company">株式会社カンム</div>
-					</a>
+					<a class="visually-hidden" href="https://gocon.jp/2021autumn/speakers/_achiku/">Akira Chiku</a>
+<a class="speaker" href="https://gocon.jp/2021autumn/speakers/_achiku/">
+	
+	<div role="presentation" class="speaker-img" style="background-image: url(https://gocon.jp/2021autumn//images/speakers/_achiku.jpg);"></div>
+	
+	<div class="info">
+		<strong class="speaker-name">Akira Chiku</strong>
+		<div class="speaker-company">Kanmu, Inc.</div>
+		<span class="speaker-country"></span>
+	</div>
+</a>
 				</li>
 				
 			</ul>
-			<div class="content"><p>Goは一見不思議に思えるけどとても実践的なInterfaceを提供していると、私は考えています。<code>net/http</code> はその一例です。APIサーバーを書くソフトウェアエンジニアとして <code>net/http</code> には馴染みがあるのですが、ちょとした興味から触った <code>image/draw</code> や <code>golang.org/x/image/font</code> にも同じように一見不思議に見えるが実践的なInterfaceがあるなと感じました。その内容を、これらのパッケージを初めて見る方たちにも分かりやすいように実例を用いて説明します。最後には、Goの画像処理に興味を持った理由である自作Webサービスも紹介します。</p>
-</div>
+			<div class="content">
+				<p>Goは一見不思議に思えるけどとても実践的なInterfaceを提供していると、私は考えています。<code>net/http</code> はその一例です。APIサーバーを書くソフトウェアエンジニアとして <code>net/http</code> には馴染みがあるのですが、ちょとした興味から触った <code>image/draw</code> や <code>golang.org/x/image/font</code> にも同じように一見不思議に見えるが実践的なInterfaceがあるなと感じました。その内容を、これらのパッケージを初めて見る方たちにも分かりやすいように実例を用いて説明します。最後には、Goの画像処理に興味を持った理由である自作Webサービスも紹介します。</p>
+
+			</div>
+
+				
 		</div>
 
 	</div>
@@ -297,9 +347,27 @@
 
 	<div class="media">
 		
-
+		<div class="video" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe src="//www.youtube.com/embed/EVUCSrj83uM?start=14313"
+			        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen
+			        title="YouTube Video"></iframe>
+		</div>
 		
+	</div>
 
+	<div>
+		<ul class="talkLinks">
+			
+				<li class="talkLinks_link">
+					<a href="https://speakerdeck.com/achiku/gofalsebiao-zhun-raiburaridexi-uhuontotohua-xiang"
+						rel="noreferrer"
+						target="_blank">
+						<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 16.933 16.933"><g transform="translate(-.334 .167)"><rect style="fill:#fff;fill-opacity:0;fill-rule:nonzero;stroke:currentColor;stroke-width:1.05833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="15" height="11.25" x="1.301" y="2.675" ry=".087" fill="none"/><rect style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" width="7" height="1" x="5.301" y="6.502" ry="0"/><rect style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" width="9" height="1" x="4.301" y="9.166" ry="0"/></g></svg>
+						Slides
+					</a>
+				</li>
+			
+		</ul>
 	</div>
 
 </section>

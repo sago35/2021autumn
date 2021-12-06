@@ -10,10 +10,10 @@
 
 	
 
-	<meta name="generator" content="Hugo 0.88.1" />
+	<meta name="generator" content="Hugo 0.89.4" />
 	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-	<title>Go Conference 2021 Autumn  | Goで超高速かつスケーラブルな逆ジオコーディングAPIサーバーを作ってみた</title>
+	<title>Go Conference 2021 Autumn | Goで超高速かつスケーラブルな逆ジオコーディングAPIサーバーを作ってみた</title>
 
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="https://gocon.jp/2021autumn/apple-touch-icon.png">
@@ -35,11 +35,17 @@
 	
 	
 
-	
-
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://gocon.jp/2021autumn/theme.css" media="all">
 	<link rel="stylesheet" href="https://gocon.jp/2021autumn/css/custom.css" media="all">
+	
+	
+	
+	<link rel="stylesheet" href="https://gocon.jp/2021autumn/scss/index.css" media="all">
+
+	
+	
+	<link rel="stylesheet" href="https://gocon.jp/2021autumn/scss/index.css" media="all">
 
     <style>
         :root{
@@ -54,6 +60,25 @@
             color: var(--base);
     }
     </style>
+
+	<meta property="og:title" content="Goで超高速かつスケーラブルな逆ジオコーディングAPIサーバーを作ってみた" />
+<meta property="og:description" content="モビリティサービスでは緯度経度を住所に変換しなければならない場面が多々あります。SaaS APIでこの機能が提供されていますが、それらでは望む変換結果を得られない場面もあり、また、費用もそれなりにかかります。
+そこで、外部SaaSに頼らずGolangを使って逆ジオコーディングAPIを自作することにしました。C言語で実装されたライブラリをCGO経由で活用しつつ、Go側の実装やデータの最適化を行うことで、usecオーダーで変換処理が完了する超高速なサービスを実現しました（APIの性能としてはHTTPのオーバーヘッドが支配的なレベルです）。
+本セッションでは実装上工夫した点などを紹介します。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gocon.jp/2021autumn/sessions/fast-scalable-reverse-geocoding/" /><meta property="og:image" content="https://gocon.jp/2021autumn/images/social-share.png"/><meta property="article:section" content="sessions" />
+
+<meta property="og:site_name" content="Go Conference 2021 Autumn" />
+
+
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gocon.jp/2021autumn/images/social-share.png"/>
+
+<meta name="twitter:title" content="Goで超高速かつスケーラブルな逆ジオコーディングAPIサーバーを作ってみた"/>
+<meta name="twitter:description" content="モビリティサービスでは緯度経度を住所に変換しなければならない場面が多々あります。SaaS APIでこの機能が提供されていますが、それらでは望む変換結果を得られない場面もあり、また、費用もそれなりにかかります。
+そこで、外部SaaSに頼らずGolangを使って逆ジオコーディングAPIを自作することにしました。C言語で実装されたライブラリをCGO経由で活用しつつ、Go側の実装やデータの最適化を行うことで、usecオーダーで変換処理が完了する超高速なサービスを実現しました（APIの性能としてはHTTPのオーバーヘッドが支配的なレベルです）。
+本セッションでは実装上工夫した点などを紹介します。"/>
+
 
 	
 	
@@ -236,9 +261,30 @@
 				
 				</li>
 				
+				<li class="" >
+				
+				<a href="https://gocon.jp/2021autumn/speakers/">Speakers</a>
+				
+				</li>
+				
+				<li class="" >
+				
+				<a href="https://gocon.jp/2021autumn/staffs/">Staffs</a>
+				
+				</li>
+				
 			</ul>
 
 			<ul class="languages">
+				
+				<li>
+					<a class="lang lang-ja "
+					   title="ja"
+					   href="https://gocon.jp/2021autumn/ja/sessions/fast-scalable-reverse-geocoding/"
+					   role="radio"
+					   aria-label="[i18n] language_switch ja"
+					aria-checked="false">[i18n] language_switch ja</a>
+				</li>
 				
 			</ul>
 		</nav>
@@ -278,20 +324,28 @@
 			<ul class="speakers">
 				
 				<li>
-					<a class="visually-hidden" aria-hidden="true" href="https://gocon.jp/2021autumn/speakers/erakazu">惠良和隆</a>
-					<a class="speaker" href="https://gocon.jp/2021autumn/speakers/erakazu">
-						<div class="speaker-img" style="background-image: url(https://gocon.jp/2021autumn//images/speakers/erakazu.jpg);"></div>
-						<strong class="speaker-name">惠良和隆</strong>
-						<span class="speaker-country"></span>
-						<div class="speaker-company">株式会社Mobility Technologies</div>
-					</a>
+					<a class="visually-hidden" href="https://gocon.jp/2021autumn/speakers/erakazu/">Kazutaka Era</a>
+<a class="speaker" href="https://gocon.jp/2021autumn/speakers/erakazu/">
+	
+	<div role="presentation" class="speaker-img" style="background-image: url(https://gocon.jp/2021autumn//images/speakers/erakazu.jpg);"></div>
+	
+	<div class="info">
+		<strong class="speaker-name">Kazutaka Era</strong>
+		<div class="speaker-company">Mobility Technologies Co., Ltd.</div>
+		<span class="speaker-country"></span>
+	</div>
+</a>
 				</li>
 				
 			</ul>
-			<div class="content"><p>モビリティサービスでは緯度経度を住所に変換しなければならない場面が多々あります。SaaS APIでこの機能が提供されていますが、それらでは望む変換結果を得られない場面もあり、また、費用もそれなりにかかります。<br>
+			<div class="content">
+				<p>モビリティサービスでは緯度経度を住所に変換しなければならない場面が多々あります。SaaS APIでこの機能が提供されていますが、それらでは望む変換結果を得られない場面もあり、また、費用もそれなりにかかります。<br>
 そこで、外部SaaSに頼らずGolangを使って逆ジオコーディングAPIを自作することにしました。C言語で実装されたライブラリをCGO経由で活用しつつ、Go側の実装やデータの最適化を行うことで、usecオーダーで変換処理が完了する超高速なサービスを実現しました（APIの性能としてはHTTPのオーバーヘッドが支配的なレベルです）。<br>
 本セッションでは実装上工夫した点などを紹介します。</p>
-</div>
+
+			</div>
+
+				
 		</div>
 
 	</div>
@@ -299,9 +353,27 @@
 
 	<div class="media">
 		
-
+		<div class="video" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe src="//www.youtube.com/embed/w2m4u3wruJY?start=5942"
+			        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen
+			        title="YouTube Video"></iframe>
+		</div>
 		
+	</div>
 
+	<div>
+		<ul class="talkLinks">
+			
+				<li class="talkLinks_link">
+					<a href="https://speakerdeck.com/mot_techtalk/godechao-gao-su-katusukeraburunani-ziokodeinguapisabawozuo-tutemita"
+						rel="noreferrer"
+						target="_blank">
+						<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 16.933 16.933"><g transform="translate(-.334 .167)"><rect style="fill:#fff;fill-opacity:0;fill-rule:nonzero;stroke:currentColor;stroke-width:1.05833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="15" height="11.25" x="1.301" y="2.675" ry=".087" fill="none"/><rect style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" width="7" height="1" x="5.301" y="6.502" ry="0"/><rect style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" width="9" height="1" x="4.301" y="9.166" ry="0"/></g></svg>
+						Slides
+					</a>
+				</li>
+			
+		</ul>
 	</div>
 
 </section>

@@ -103,6 +103,24 @@ I like to speed up applications and think about architecture. I also like compet
     
     <item>
       <title></title>
+      <link>https://gocon.jp/2021autumn/speakers/isozaki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/speakers/isozaki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/speakers/issei_kimura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/speakers/issei_kimura/</guid>
+      <description>株式会社カミナシのソフトウェアエンジニアとして、現場改善プラットフォーム『カミナシ』を開発しています。</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://gocon.jp/2021autumn/speakers/it_guitar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -149,6 +167,15 @@ https://future-architect.github.io/</description>
     
     <item>
       <title></title>
+      <link>https://gocon.jp/2021autumn/speakers/motohiro_nakamura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/speakers/motohiro_nakamura/</guid>
+      <description>ゲームのバックエンドを主に開発。ラジオが趣味。</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://gocon.jp/2021autumn/speakers/nakabonne/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -163,6 +190,15 @@ https://future-architect.github.io/</description>
       
       <guid>https://gocon.jp/2021autumn/speakers/nao_mk2/</guid>
       <description>静的型付け言語好きなエンジニア。仕事ではGo / PHP / Vue.jsをよく書いてます。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/speakers/noriki_takahashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/speakers/noriki_takahashi/</guid>
+      <description>株式会社ビットキーで、bitkey platform の開発をしています。Kubernetes, Go, 物理学, 数学が好きです。</description>
     </item>
     
     <item>
@@ -227,15 +263,6 @@ https://future-architect.github.io/</description>
       
       <guid>https://gocon.jp/2021autumn/speakers/sntree_suzunoki/</guid>
       <description>Retty株式会社にてバックエンドを主としたソフトウェアエンジニアとして活動しています。趣味 + 業務でGoを書いていて、HowからWhyへの転換をしようとしている最中です。プライベートではFutterとGoでサービスを作ったり（途中）しています。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://gocon.jp/2021autumn/speakers/tbd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/speakers/tbd/</guid>
-      <description></description>
     </item>
     
     <item>

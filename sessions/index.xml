@@ -7,21 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://gocon.jp/2021autumn/sessions/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>(仮) Azure ADに完全対応した認証プロキシ・webサーバを開発してみた話</title>
-      <link>https://gocon.jp/2021autumn/sessions/azure-ad-auth-server/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/sessions/azure-ad-auth-server/</guid>
-      <description>AzureにはApp ServiceやStatic Web Appsといったwebサイト構築に便利なPaaSがあり、Easy Authという組み込みの認証・認可機能を備えています。しかしながらエンタープライズ水準のきめ細かなアクセス制御が必要な場合は、開発者は依然として自分でその機能をwebアプリ中に組み込む必要がありました。今回、企業内webサイトのような、細かなアクセス制御の要件はあるがwebアプリにするまでもない静的webサイトを誰でも簡単に構築できることを目標として、Azure ADに対応した認証プロキシ・webサーバをGo言語で実装しましたので、実際の構築手順や事例と共に紹介します。</description>
-    </item>
-    
-    <item>
       <title>After Party</title>
       <link>https://gocon.jp/2021autumn/sessions/after-party/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/sessions/after-party/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Azure AD対応の認証プロキシサーバをGoで作ってみた話</title>
+      <link>https://gocon.jp/2021autumn/sessions/azure-ad-auth-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/sessions/azure-ad-auth-server/</guid>
+      <description>AzureにはApp ServiceやStatic Web Appsといったwebサイト構築に便利なPaaSがあり、Easy Authという組み込みの認証・認可機能を備えています。しかしながらエンタープライズ水準のきめ細かなアクセス制御が必要な場合は、開発者は依然として自分でその機能をwebアプリ中に組み込む必要がありました。今回、企業内webサイトのような、細かなアクセス制御の要件はあるがwebアプリにするまでもない静的webサイトを誰でも簡単に構築できることを目標として、Azure ADに対応した認証プロキシ・webサーバをGo言語で実装しましたので、実際の構築手順や事例と共に紹介します。</description>
     </item>
     
     <item>
@@ -152,6 +152,16 @@ https://github.com/sanposhiho/gomockhandler</description>
     </item>
     
     <item>
+      <title>Goで開発したサービスを6年間運用した&#34;しくじり&#34;</title>
+      <link>https://gocon.jp/2021autumn/sessions/sponsor-miidas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/sessions/sponsor-miidas/</guid>
+      <description>転職サービス「ミイダス」ではリリース当初からGoを採用し、現在運用6年目です。売上も0=&amp;gt;30億を超える規模のサービスになっています。
+この間にやらかしてしまったこと、いまも残っている課題についての事例を共有します。特に10ｰ30人程度の開発メンバーを抱えるチームや、これからチームを拡大していく開発者に向けた内容です。</description>
+    </item>
+    
+    <item>
       <title>Goで静的解析をはじめてみよう</title>
       <link>https://gocon.jp/2021autumn/sessions/go-static-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -247,12 +257,30 @@ net/httpを使った簡単なサーバーを起動するコードの読み解き
     </item>
     
     <item>
+      <title>Office hour</title>
+      <link>https://gocon.jp/2021autumn/sessions/_officehour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/sessions/_officehour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Opening</title>
       <link>https://gocon.jp/2021autumn/sessions/opening/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/sessions/opening/</guid>
       <description>Opening talk.</description>
+    </item>
+    
+    <item>
+      <title>Sponsor Session: Remo Japan Co., Ltd.</title>
+      <link>https://gocon.jp/2021autumn/sessions/sponsor-remo-japan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/sessions/sponsor-remo-japan/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -272,11 +300,15 @@ I will show the implementation of two-phase commit in the go language that I did
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/sessions/workshop_a/</guid>
-      <description>TinyGo ハンズオンを行います。ハンズオンでは、組込ソフトとしての側面にフォーカスし、 L チカ (LED を光らせる) などを行います。
+      <description>イベントページ: https://gocon.connpass.com/event/226098/
+（参加申し込みは締め切りました。多数のお申し込みをいただき、ありがとうございました。）
+TinyGo ハンズオンを行います。ハンズオンでは、組込ソフトとしての側面にフォーカスし、 L チカ (LED を光らせる) などを行います。
 TinyGo は Go でマイコンや WASM 向けのバイナリを出力するためのプログラミング言語／環境です。今回のハンズオンの範囲としてはマイコン／組込システムで動く Go という認識で良いです。
 今回ハンズオンを実施するにあたり、 Seeed株式会社様より Wio Terminal ボードをスポンサー していただきました。 Wio Terminal を使って、 TinyGo による組込ソフト開発を体験してみましょう。
 このイベントは日本語で開催されます。
-This event will be held in Japanese.</description>
+This event will be held in Japanese.
+ハンズオン資料: https://github.com/sago35/tinygo-workshop
+13:10 - 14:10 の分を以下でライブ配信／アーカイブ配信します。</description>
     </item>
     
     <item>
@@ -285,20 +317,15 @@ This event will be held in Japanese.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/sessions/workshop_b/</guid>
-      <description>TinyGo ハンズオンを行います。ハンズオンでは、組込ソフトとしての側面にフォーカスし、 L チカ (LED を光らせる) などを行います。
+      <description>イベントページ: https://gocon.connpass.com/event/226098/
+（参加申し込みは締め切りました。多数のお申し込みをいただき、ありがとうございました。）
+TinyGo ハンズオンを行います。ハンズオンでは、組込ソフトとしての側面にフォーカスし、 L チカ (LED を光らせる) などを行います。
 TinyGo は Go でマイコンや WASM 向けのバイナリを出力するためのプログラミング言語／環境です。今回のハンズオンの範囲としてはマイコン／組込システムで動く Go という認識で良いです。
 今回ハンズオンを実施するにあたり、 Seeed株式会社様より Wio Terminal ボードをスポンサー していただきました。 Wio Terminal を使って、 TinyGo による組込ソフト開発を体験してみましょう。
 このイベントは日本語で開催されます。
-This event will be held in Japanese.</description>
-    </item>
-    
-    <item>
-      <title>Understanding the Go scheduling - Goにおけるスケジューリングの体系化(仮)</title>
-      <link>https://gocon.jp/2021autumn/sessions/go-scheduling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/sessions/go-scheduling/</guid>
-      <description>Goにおいて複数のゴールーチンを並行に実行するためのスケジューラは、Goランタイム内で実装されています。しかし現在のスケジューラの大枠が実装されたのは9年前のGo1.1であり、世の中におけるGoのスケジューラ解説はそのときに世に出た公式設計書を元に、視覚的な図ベースで組み立てられているものがほとんどです。本セッションでは、スケジューラの挙動について実際のruntimeパッケージ内のコードベースで理解することを目的に、スケジューラについての説明体系を再構築します。</description>
+This event will be held in Japanese.
+ハンズオン資料: https://github.com/sago35/tinygo-workshop
+13:10 - 14:10 の分を以下でライブ配信／アーカイブ配信します。</description>
     </item>
     
     <item>
@@ -323,16 +350,7 @@ This event will be held in Japanese.</description>
     </item>
     
     <item>
-      <title>スポンサーセッション</title>
-      <link>https://gocon.jp/2021autumn/sessions/sponsor-bitkey/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/sessions/sponsor-bitkey/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>スポンサーセッション</title>
+      <title>ゲームサーバ基盤TakashoをGoで開発して良かった点と課題感</title>
       <link>https://gocon.jp/2021autumn/sessions/sponsor-dena/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -341,30 +359,22 @@ This event will be held in Japanese.</description>
     </item>
     
     <item>
-      <title>スポンサーセッション</title>
+      <title>スケジューラから学ぶGoランタイム 〜 code reading of runtime pkg〜</title>
+      <link>https://gocon.jp/2021autumn/sessions/go-scheduling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/sessions/go-scheduling/</guid>
+      <description>Goにおいて複数のゴールーチンを並行に実行するためのスケジューラは、Goランタイム内で実装されています。しかし現在のスケジューラの大枠が実装されたのは9年前のGo1.1であり、世の中におけるGoのスケジューラ解説はそのときに世に出た公式設計書を元に、視覚的な図ベースで組み立てられているものがほとんどです。本セッションでは、スケジューラの挙動について実際のruntimeパッケージ内のコードベースで理解することを目的に、スケジューラについての説明体系を再構築します。</description>
+    </item>
+    
+    <item>
+      <title>ノンデスクワーカー向けノーコードサービスのつらみ・うまみ</title>
       <link>https://gocon.jp/2021autumn/sessions/sponsor-kaminashi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/sessions/sponsor-kaminashi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>スポンサーセッション</title>
-      <link>https://gocon.jp/2021autumn/sessions/sponsor-miidas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/sessions/sponsor-miidas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>スポンサーセッション: Remo</title>
-      <link>https://gocon.jp/2021autumn/sessions/sponsor-remo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2021autumn/sessions/sponsor-remo/</guid>
-      <description></description>
+      <description>SaaSをほぼ使った事がない、ノンデスクワーカーの方々の武器になるノーコードサービスをカミナシはGoで作っています。
+サービス特性上、深いネストになりやすい木構造のデータをGoでさばく辛みだったり、木構造の各階層で複雑なデータパターンを安定的に扱う静的型付けの恩恵など、カミナシでGoを扱ってきて学んだ辛み・旨みを凝縮して共有させていただきます。</description>
     </item>
     
     <item>
@@ -376,6 +386,19 @@ This event will be held in Japanese.</description>
       <description>Rettyではおよそ10年以上動いているPHPのモノリスから、Goベースのマイクロサービスへの移行を続けています。
 長く開発が行われていましたが、2021年の3月から部分的に本番で運用されることになりました。
 育ち過ぎたモノリスからGo製マイクロサービスへの移行、実用までの最後の仕上げについてご紹介します。</description>
+    </item>
+    
+    <item>
+      <title>人生いろいろモノレポもいろいろ♪</title>
+      <link>https://gocon.jp/2021autumn/sessions/sponsor-bitkey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/sessions/sponsor-bitkey/</guid>
+      <description>モノレポ(Monorepo)とは、複数のモジュールやパッケージを単一のレポジトリで管理する手法です。
+Go でモノレポというと最近では、Bazel (&amp;amp; Gazelle) を活用したものがイメージされることが多いですが、他にも実現方法はあります。
+一番シンプルなものとして、単一Go モジュールによるモノレポがあります。 その他にも、ビルドツールを導入せず、Go モジュールを複数含めるパターンなど、様々なものがあります。
+こうした背景をもとに発表では以下の内容をお話しします。
+ モノレポの移行の目的 モノレポが本当に必要なのか モノレポのどのパターンが適しているのか モノレポへの移行方法  </description>
     </item>
     
     <item>

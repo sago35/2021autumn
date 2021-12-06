@@ -10,10 +10,10 @@
 
 	
 
-	<meta name="generator" content="Hugo 0.88.1" />
+	<meta name="generator" content="Hugo 0.89.4" />
 	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-	<title>Go Conference 2021 Autumn  | (仮) Azure ADに完全対応した認証プロキシ・webサーバを開発してみた話</title>
+	<title>Go Conference 2021 Autumn | Azure AD対応の認証プロキシサーバをGoで作ってみた話</title>
 
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="https://gocon.jp/2021autumn/apple-touch-icon.png">
@@ -35,11 +35,17 @@
 	
 	
 
-	
-
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://gocon.jp/2021autumn/theme.css" media="all">
 	<link rel="stylesheet" href="https://gocon.jp/2021autumn/css/custom.css" media="all">
+	
+	
+	
+	<link rel="stylesheet" href="https://gocon.jp/2021autumn/scss/index.css" media="all">
+
+	
+	
+	<link rel="stylesheet" href="https://gocon.jp/2021autumn/scss/index.css" media="all">
 
     <style>
         :root{
@@ -54,6 +60,21 @@
             color: var(--base);
     }
     </style>
+
+	<meta property="og:title" content="Azure AD対応の認証プロキシサーバをGoで作ってみた話" />
+<meta property="og:description" content="AzureにはApp ServiceやStatic Web Appsといったwebサイト構築に便利なPaaSがあり、Easy Authという組み込みの認証・認可機能を備えています。しかしながらエンタープライズ水準のきめ細かなアクセス制御が必要な場合は、開発者は依然として自分でその機能をwebアプリ中に組み込む必要がありました。今回、企業内webサイトのような、細かなアクセス制御の要件はあるがwebアプリにするまでもない静的webサイトを誰でも簡単に構築できることを目標として、Azure ADに対応した認証プロキシ・webサーバをGo言語で実装しましたので、実際の構築手順や事例と共に紹介します。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gocon.jp/2021autumn/sessions/azure-ad-auth-server/" /><meta property="og:image" content="https://gocon.jp/2021autumn/images/social-share.png"/><meta property="article:section" content="sessions" />
+
+<meta property="og:site_name" content="Go Conference 2021 Autumn" />
+
+
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gocon.jp/2021autumn/images/social-share.png"/>
+
+<meta name="twitter:title" content="Azure AD対応の認証プロキシサーバをGoで作ってみた話"/>
+<meta name="twitter:description" content="AzureにはApp ServiceやStatic Web Appsといったwebサイト構築に便利なPaaSがあり、Easy Authという組み込みの認証・認可機能を備えています。しかしながらエンタープライズ水準のきめ細かなアクセス制御が必要な場合は、開発者は依然として自分でその機能をwebアプリ中に組み込む必要がありました。今回、企業内webサイトのような、細かなアクセス制御の要件はあるがwebアプリにするまでもない静的webサイトを誰でも簡単に構築できることを目標として、Azure ADに対応した認証プロキシ・webサーバをGo言語で実装しましたので、実際の構築手順や事例と共に紹介します。"/>
+
 
 	
 	
@@ -236,9 +257,30 @@
 				
 				</li>
 				
+				<li class="" >
+				
+				<a href="https://gocon.jp/2021autumn/speakers/">Speakers</a>
+				
+				</li>
+				
+				<li class="" >
+				
+				<a href="https://gocon.jp/2021autumn/staffs/">Staffs</a>
+				
+				</li>
+				
 			</ul>
 
 			<ul class="languages">
+				
+				<li>
+					<a class="lang lang-ja "
+					   title="ja"
+					   href="https://gocon.jp/2021autumn/ja/sessions/azure-ad-auth-server/"
+					   role="radio"
+					   aria-label="[i18n] language_switch ja"
+					aria-checked="false">[i18n] language_switch ja</a>
+				</li>
 				
 			</ul>
 		</nav>
@@ -268,7 +310,7 @@
     <header >
     
 
-	<h1 class="text">(仮) Azure ADに完全対応した認証プロキシ・webサーバを開発してみた話</h1>
+	<h1 class="text">Azure AD対応の認証プロキシサーバをGoで作ってみた話</h1>
 	<span class="language "></span>
 	</header>
 
@@ -278,18 +320,26 @@
 			<ul class="speakers">
 				
 				<li>
-					<a class="visually-hidden" aria-hidden="true" href="https://gocon.jp/2021autumn/speakers/hogegashi">八重樫 剛史</a>
-					<a class="speaker" href="https://gocon.jp/2021autumn/speakers/hogegashi">
-						<div class="speaker-img" style="background-image: url(https://gocon.jp/2021autumn//images/speakers/hogegashi.jpeg);"></div>
-						<strong class="speaker-name">八重樫 剛史</strong>
-						<span class="speaker-country"></span>
-						<div class="speaker-company">株式会社バンダイナムコスタジオ</div>
-					</a>
+					<a class="visually-hidden" href="https://gocon.jp/2021autumn/speakers/hogegashi/">Takeshi Yaegashi</a>
+<a class="speaker" href="https://gocon.jp/2021autumn/speakers/hogegashi/">
+	
+	<div role="presentation" class="speaker-img" style="background-image: url(https://gocon.jp/2021autumn//images/speakers/hogegashi.jpeg);"></div>
+	
+	<div class="info">
+		<strong class="speaker-name">Takeshi Yaegashi</strong>
+		<div class="speaker-company">BANDAI NAMCO Studios Inc.</div>
+		<span class="speaker-country"></span>
+	</div>
+</a>
 				</li>
 				
 			</ul>
-			<div class="content"><p>AzureにはApp ServiceやStatic Web Appsといったwebサイト構築に便利なPaaSがあり、Easy Authという組み込みの認証・認可機能を備えています。しかしながらエンタープライズ水準のきめ細かなアクセス制御が必要な場合は、開発者は依然として自分でその機能をwebアプリ中に組み込む必要がありました。今回、企業内webサイトのような、細かなアクセス制御の要件はあるがwebアプリにするまでもない静的webサイトを誰でも簡単に構築できることを目標として、Azure ADに対応した認証プロキシ・webサーバをGo言語で実装しましたので、実際の構築手順や事例と共に紹介します。</p>
-</div>
+			<div class="content">
+				<p>AzureにはApp ServiceやStatic Web Appsといったwebサイト構築に便利なPaaSがあり、Easy Authという組み込みの認証・認可機能を備えています。しかしながらエンタープライズ水準のきめ細かなアクセス制御が必要な場合は、開発者は依然として自分でその機能をwebアプリ中に組み込む必要がありました。今回、企業内webサイトのような、細かなアクセス制御の要件はあるがwebアプリにするまでもない静的webサイトを誰でも簡単に構築できることを目標として、Azure ADに対応した認証プロキシ・webサーバをGo言語で実装しましたので、実際の構築手順や事例と共に紹介します。</p>
+
+			</div>
+
+				
 		</div>
 
 	</div>
@@ -297,9 +347,18 @@
 
 	<div class="media">
 		
-
+		<div class="video" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe src="//www.youtube.com/embed/EVUCSrj83uM?start=28921"
+			        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen
+			        title="YouTube Video"></iframe>
+		</div>
 		
+	</div>
 
+	<div>
+		<ul class="talkLinks">
+			
+		</ul>
 	</div>
 
 </section>

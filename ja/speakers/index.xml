@@ -1,11 +1,206 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Speakers on Go Conference 2021 Autumn</title>
+    <title>スピーカー on Go Conference 2021 Autumn</title>
     <link>https://gocon.jp/2021autumn/ja/speakers/</link>
-    <description>Recent content in Speakers on Go Conference 2021 Autumn</description>
+    <description>Recent content in スピーカー on Go Conference 2021 Autumn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://gocon.jp/2021autumn/ja/speakers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/__syumai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/__syumai/</guid>
+      <description>Goの言語仕様に興味があり、Go Language Specification輪読会などのイベントを主催しています。
+勉強会のためのツールとして、同時編集Go Playgroundや、Goの言語仕様のCLからHTMLへのプレビューを行うツールなどを開発しました。
+好きなパッケージはsyscall/jsです。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/_achiku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/_achiku/</guid>
+      <description>バンドルカードを提供している株式会社カンムでCOOとして開発/グロース/データ分析/人事を担当しています。元炎舞(https://t.co/9Jfh35enkJ) 、趣味はコードを書くこと(https://github.com/achiku)。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/bmf_san/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/bmf_san/</guid>
+      <description>初参加初登壇勢です、よろしくお願いします。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/castanea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/castanea/</guid>
+      <description>ゲームのサーバーやさん。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/d_tutuz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/d_tutuz/</guid>
+      <description>I am a backend engineer working at Future Corporation.
+I like to speed up applications and think about architecture. I also like competition programming.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/erakazu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/erakazu/</guid>
+      <description>16年ほどゲーム開発（家庭用、PC、モバイル）を経験した後、来る自動運転時代に向けてモビリティ領域へとキャリアチェンジ。ゲーム会社からITメガベンチャーを経て現職に至る。
+株式会社Mobility Technologiesでは、取締役兼開発本部本部長として、開発組織をマネジメントしながらタクシーアプリ『GO』の開発責任者として開発チームをリードしつつ、自身でもコードを書いている。
+趣味は愛猫（ベンガル2匹）をモフることと、ドライブ。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/flum_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/flum_/</guid>
+      <description>Retty株式会社でソフトウェアエンジニアをしています。普段はGo, TypeScriptでGraphQLとNuxt.jsの開発を行っています。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/hajimehoshi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/hajimehoshi/</guid>
+      <description>ソフトウェアエンジニア。ゲームを作るものを作ることに興味がある。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/hgsgtk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/hgsgtk/</guid>
+      <description>BASE BANK株式会社でEngineering Managerをしてます。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/hogegashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/hogegashi/</guid>
+      <description>Linux・Unix・OSS・Go言語と比較的低レイヤな技術が好きなエンジニア。かつて組み込みシステム開発やゲームサーバ開発に従事し、現在は社内IT環境の改善や様々な製品開発プロジェクトのクラウド移行の支援などをしています。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/isozaki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/isozaki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/issei_kimura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/issei_kimura/</guid>
+      <description>株式会社カミナシのソフトウェアエンジニアとして、現場改善プラットフォーム『カミナシ』を開発しています。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/it_guitar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/it_guitar/</guid>
+      <description>フューチャー技術ブログにいろいろ書いています
+https://future-architect.github.io/</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/k1low/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/k1low/</guid>
+      <description>少し実用的で小さなOSSを書くのが趣味。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/kenta_moriwaki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/kenta_moriwaki/</guid>
+      <description>Retty株式会社でエンジニアをしています。カレー作りとDIYが趣味です。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/kojiaomatsu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/kojiaomatsu/</guid>
+      <description>I have been dreaming of creating a service that everyone knows, but it has not yet come true.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/lighttiger2505/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/lighttiger2505/</guid>
+      <description>バックエンドエンジニア。テキストエディタ(Vim/Neovim)とCLIコマンドが好きで自作プラグインや自作コマンドを作るのが趣味です。主成分は鶏むね肉とコーヒー。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/motohiro_nakamura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/motohiro_nakamura/</guid>
+      <description>ゲームのバックエンドを主に開発。ラジオが趣味。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/nakabonne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/nakabonne/</guid>
+      <description>普段は、PipeCDという継続的デリバリシステムの開発をしています。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/nao_mk2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/nao_mk2/</guid>
+      <description>静的型付け言語好きなエンジニア。仕事ではGo / PHP / Vue.jsをよく書いてます。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/noriki_takahashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/noriki_takahashi/</guid>
+      <description>株式会社ビットキーで、bitkey platform の開発をしています。Kubernetes, Go, 物理学, 数学が好きです。</description>
+    </item>
+    
     <item>
       <title></title>
       <link>https://gocon.jp/2021autumn/ja/speakers/sago35tk/</link>
@@ -17,11 +212,75 @@
     
     <item>
       <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/saki_engineer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/saki_engineer/</guid>
+      <description>東京大学工学部→今年から新社会人になりました
+プライベートでまったりGoを触りながら、得られた知見をZennに投稿したりWomen Who Go Tokyoさんの同人誌に書いたりしています</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/sanpo_shiho/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/sanpo_shiho/</guid>
+      <description>大学4回生です。普段はGoでバックエンド書いたり、OSSをしたり、学校の課題に追われたりしています。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/sekino_pii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/sekino_pii/</guid>
+      <description>株式会社UPSIDERでバックエンドエンジニアとして金融サービスの開発をしています。創業期から参画して、決済システムを立ち上げて、今も決済チームのリードをしています。Goが好きで、GoのOSSにちょこちょこContributionしています。Techno/HouseとRockが好きです。Go Conference 2021 Springにも登壇したので、二回連続の登壇となります。</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://gocon.jp/2021autumn/ja/speakers/shibu_jp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/ja/speakers/shibu_jp/</guid>
       <description>Goの本を書いています。業務でも中規模案件などでちょこちょこ利用しています。Goやその他の知見は会社の技術ブログで公開しています。好きなパッケージはcrypto/rand</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/sivchari/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/sivchari/</guid>
+      <description>はじめまして、しぶちゃりです。22卒でサイバーエージェントでバックエンドエンジニアとして働き始める予定です(卒論)。直近ではTwitter V2 APIのライブラリとGo1.17から追加されたt.Setenvを利用していない場所を検知するtenvという静的解析ツールを作成し、golangci-lintにPR中です。最近は自作コンパイラを作るための学習とGoのruntime周りを楽しく勉強しています。好きなパッケージはruntime packageです。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/sntree_suzunoki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/sntree_suzunoki/</guid>
+      <description>Retty株式会社にてバックエンドを主としたソフトウェアエンジニアとして活動しています。趣味 + 業務でGoを書いていて、HowからWhyへの転換をしようとしている最中です。プライベートではFutterとGoでサービスを作ったり（途中）しています。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/tenntenn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/tenntenn/</guid>
+      <description>メルカリ／メルペイ所属。 バックエンドエンジニアとして日々Goを書いている。 Google Developer Expert (Go)。 Go Conference主催者。golang.tokyo、Goビギナーズ、GCPUG Tokyo運営。 大学時代にGoに出会い、それ以来のめり込む。 社内外で自ら勉強会を開催し、Goの普及に取り組んでいる。 マスコットのGopherの絵を描くのも好き。人類をGopherにしたいと考えている。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2021autumn/ja/speakers/ymtyta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/speakers/ymtyta/</guid>
+      <description>ARIGATOBANKは前澤友作氏が出資したFintechベンチャー。「お金に困っている人をゼロにする」をビジョンに据え、先日寄付のプラットフォームアプリ「kifutown」をローンチし、今後も様々なサービスを開発していきます。</description>
     </item>
     
   </channel>

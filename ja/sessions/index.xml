@@ -7,6 +7,199 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://gocon.jp/2021autumn/ja/sessions/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Azure AD対応の認証プロキシサーバをGoで作ってみた話</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/azure-ad-auth-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/azure-ad-auth-server/</guid>
+      <description>AzureにはApp ServiceやStatic Web Appsといったwebサイト構築に便利なPaaSがあり、Easy Authという組み込みの認証・認可機能を備えています。しかしながらエンタープライズ水準のきめ細かなアクセス制御が必要な場合は、開発者は依然として自分でその機能をwebアプリ中に組み込む必要がありました。今回、企業内webサイトのような、細かなアクセス制御の要件はあるがwebアプリにするまでもない静的webサイトを誰でも簡単に構築できることを目標として、Azure ADに対応した認証プロキシ・webサーバをGo言語で実装しましたので、実際の構築手順や事例と共に紹介します。</description>
+    </item>
+    
+    <item>
+      <title>Cloud Gaming Platform with Go</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/go-cloud-gaming-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/go-cloud-gaming-platform/</guid>
+      <description>私たちはクラウドゲーミングエンジンをフルスクラッチで開発し2021年に既存のエンジンを置き換えました。
+そのバックエンドの大半はGoで開発しています。
+クラウドゲーミングはまだ実例も少なく目新しい分野であり、実現のためには多種多様な技術が要求されます。
+そんな中なぜGoを選んだのか、そしてGoの機能やライブラリがどのように既存プラットフォームの課題とクラウドゲーミング実現における課題を解決してくれたのかを技術分野ごとに解説します。</description>
+    </item>
+    
+    <item>
+      <title>Create Go WebDriver Client from Scratch</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/webdriver-client-from-scratch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/webdriver-client-from-scratch/</guid>
+      <description>Webアプリ開発をしている現場ではUIレベルのブラウザ操作を自動化することによって実現する自動テストの作成は馴染みが深いものです。
+ブラウザ操作の自動化にあたり出てくる WebDriver の Client はその仕様上 net/http パッケージ等の標準パッケージを介して自作することができます。
+本トークでは、W3C勧告の標準化仕様WebDriver Wire Protocol等の詳細に軽く触れた上で、net/httpパッケージ等標準パッケージを組み合わせることでWebDriverとコミュニケーションをしブラウザを動かす実装方法を解説します。</description>
+    </item>
+    
+    <item>
+      <title>Developing games in Go for Nintendo Switch™</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/go-nintendo-switch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/go-nintendo-switch/</guid>
+      <description>Go を C++ に変換するツールを作成し、 Go で書かれたゲームを Nintendo Switch™ 上で動かすことに成功しました。本プレゼンテーションでは、 Go および Switch の制約、 Switch で動かすための手法や制作したツール、および今後の予定について説明します。</description>
+    </item>
+    
+    <item>
+      <title>Floating Point Numbers and Decimal in Go</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/go-floating-point-and-decimal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/go-floating-point-and-decimal/</guid>
+      <description>プログラミングにおける小数の扱いは、注意が必要な定番のポイントだと思います。特に、精緻な計算が必要な処理では、桁落ちやオーバーフローを考慮することになります。
+Goでは、組み込みの型の小数の挙動に少し独特な部分があります。また、精緻な計算を要求される場面では、math/bigパッケージなど、細かい小数を扱う仕組みも標準で提供されています。
+そこでこのセッションでは、Goの組み込みの文法での小数の挙動を実際に見た上で、汎用的なアプローチとして、公式のmath/bigやサードパーティーのshopspring/decimalパッケージを利用した小数の取り扱い方法を紹介したいと思います。</description>
+    </item>
+    
+    <item>
+      <title>Go Contextを完全に理解する</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/understanding-go-context/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/understanding-go-context/</guid>
+      <description>Goではcontext.Contextを利用することで、キャンセルやタイムアウトを効率よく安全に実装することができます。
+ContextはDBクライアントなど各種ライブラリを使う際に、対応する関数の引数にするだけでも動作します。
+Contextはとても抽象度の高い存在ですが、実体はわずか数百行のコードで完結したライブラリです。
+それだけの行数で動作するよう、非同期処理、インターフェースが高度に実装されています。
+詳細な実装まで読み解いて、Contextをしっかりと理解してみたくなりませんか。</description>
+    </item>
+    
+    <item>
+      <title>golang/mockでのモック生成と管理の &#34;より良い&#34; アプローチ</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/better-golang-mock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/better-golang-mock/</guid>
+      <description>golang/mockというinterface定義からモックを生成するGoのツールがあります。
+このLTではgolang/mockの生成と管理に特化したgomockhandlerというツールの紹介をします。
+https://github.com/sanposhiho/gomockhandler</description>
+    </item>
+    
+    <item>
+      <title>Golangで作るSQL Language Server(sqls)</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/golang-sqls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/golang-sqls/</guid>
+      <description>私はGo言語でsqlsというSQL Language Serverを作りました。sqlsはSQLを静的解析し、DBから取得されたテーブルやカラム情報を組み合わせて、自動補完やドキュメント表示など、開発に必要なインテリセンスを提供するサーバーです。
+利用するクライアントとの通信にLanguage Server Protocol(LSP)を用いることであらゆるエディタが、sqlsの支援を受けることができます。</description>
+    </item>
+    
+    <item>
+      <title>Gormのバージョンを上げたお話</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/gorm-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/gorm-update/</guid>
+      <description>RettyではGo製のマイクロサービスでGORMを採用していますが、Version2リリースではいろいろなつまづきがあり苦労しました。
+バージョンアップの過程での大変だったことや学んだことを共有します。</description>
+    </item>
+    
+    <item>
+      <title>goroutineの仕組みについて</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/how-goroutine-works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/how-goroutine-works/</guid>
+      <description>私たちはgoというキーワードを用いることで、仕組みが分からずとも並行処理を容易に行うことができます。そこで、なぜGoではgoroutineにより効率的な並行処理を実現できているか説明します。
+トークを通してgoroutineが既存のスレッドと異なりflyweightと呼ばれる理由を知ることができます。またgoroutineがどのように管理されているのかというスケジューラーの仕組みについても知ることができます。
+そのため、ただgoroutineを使うというステップから、Goの言語的な仕組みを理解した上でgoroutineによる並行処理を用いることができるようになるでしょう。</description>
+    </item>
+    
+    <item>
+      <title>Goで超高速かつスケーラブルな逆ジオコーディングAPIサーバーを作ってみた</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/fast-scalable-reverse-geocoding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/fast-scalable-reverse-geocoding/</guid>
+      <description>モビリティサービスでは緯度経度を住所に変換しなければならない場面が多々あります。SaaS APIでこの機能が提供されていますが、それらでは望む変換結果を得られない場面もあり、また、費用もそれなりにかかります。
+そこで、外部SaaSに頼らずGolangを使って逆ジオコーディングAPIを自作することにしました。C言語で実装されたライブラリをCGO経由で活用しつつ、Go側の実装やデータの最適化を行うことで、usecオーダーで変換処理が完了する超高速なサービスを実現しました（APIの性能としてはHTTPのオーバーヘッドが支配的なレベルです）。
+本セッションでは実装上工夫した点などを紹介します。</description>
+    </item>
+    
+    <item>
+      <title>Goで開発したサービスを6年間運用した&#34;しくじり&#34;</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/sponsor-miidas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/sponsor-miidas/</guid>
+      <description>転職サービス「ミイダス」ではリリース当初からGoを採用し、現在運用6年目です。売上も0=&amp;gt;30億を超える規模のサービスになっています。
+この間にやらかしてしまったこと、いまも残っている課題についての事例を共有します。特に10ｰ30人程度の開発メンバーを抱えるチームや、これからチームを拡大していく開発者に向けた内容です。</description>
+    </item>
+    
+    <item>
+      <title>Goで静的解析をはじめてみよう</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/go-static-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/go-static-analysis/</guid>
+      <description>静的解析を行うことで、プログラムの品質を高めることができます。Goでは golang.org/x/tools/go/analysis というパッケージを用いることによって、静的解析にあまりなじみがない開発者も、字句解析や構文解析を自前で実装せずに、静的解析モジュールを実装できます。
+本LTでは、静的解析のモジュールを作った私の経験をもとに、静的解析のモジュール実装が身近なものであることをお伝えします。本LTのリスナーが静的解析のモジュールが実装できるんだ、と思ってもらえることをゴールとします。</description>
+    </item>
+    
+    <item>
+      <title>GoとGraphQLを使用したサービス開発</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/go-graphql-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/go-graphql-service/</guid>
+      <description>Rettyの新規事業Retty OrderはバックエンドにGoとGraphQLを採用し開発を行っています。
+新規事業は刻々と状況が変わっていきます。ただ機能を開発するだけではなく、品質と速度の両立や今後の運用やスケールを見据えた開発を行っていく必要があります。
+開発で工夫している点や採用技術など、どのように開発行っているのかご紹介します。</description>
+    </item>
+    
+    <item>
+      <title>GoのProposalの追い方ガイド</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/go-proposal-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/go-proposal-guide/</guid>
+      <description>Go projectにおいて、何か言語、ライブラリ、ツールへの重要な変更が行われる場合は、これに対して議論を行うためのデザインが必要となります。
+この時、変更の提案元がGo Teamであろうと、外部からであろうと、同じプロセスを経ます。
+このプロセスの初めに提出されるのが、Proposalです。
+将来のGoがどうなっていくのか、短期的、長期的にキャッチアップをし続けたいのであれば、Proposalをウォッチするのは非常に有効な手段となります。
+本発表では、ここ最近、Generics関連の動向を追いかけていく中で知ったProposalの追い方について、知っておくべき点をまとめて説明します。</description>
+    </item>
+    
+    <item>
+      <title>Goの標準ライブラリで扱うフォントと画像</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/go-stdlib-font-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/go-stdlib-font-image/</guid>
+      <description>Goは一見不思議に思えるけどとても実践的なInterfaceを提供していると、私は考えています。net/http はその一例です。APIサーバーを書くソフトウェアエンジニアとして net/http には馴染みがあるのですが、ちょとした興味から触った image/draw や golang.org/x/image/font にも同じように一見不思議に見えるが実践的なInterfaceがあるなと感じました。その内容を、これらのパッケージを初めて見る方たちにも分かりやすいように実例を用いて説明します。最後には、Goの画像処理に興味を持った理由である自作Webサービスも紹介します。</description>
+    </item>
+    
+    <item>
+      <title>io/fs.FS for testability. io/fs.FS for abstraction.</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/io-fs-fs-testability-abstraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/io-fs-fs-testability-abstraction/</guid>
+      <description>Go 1.16から追加されたio/fsパッケージが提供しているインターフェースについて、皆さんはどのような目的で活用していますか？
+私は、主に2つの目的で活用しています。1つはテスト容易性（テスタビリティ）、もう1つはファイルシステムとしての抽象化です。
+本発表では、具体的な事例を元に上記の2つの目的での使い方を紹介します。
+また、fs.FSインターフェースを使ったことで失敗した事例も紹介したいと思います。
+本発表を通じてio/fsのインターフェースの利用イメージを持ってもらえれば嬉しいです。</description>
+    </item>
+    
+    <item>
+      <title>io/fsパッケージを用いたテスタブルなコード生成ツールの開発</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/io-fs-testability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/io-fs-testability/</guid>
+      <description>io/fsパッケージによりOSのファイルシステムに依存しない処理を書けます。例えば、複数のファイルを生成するツールの開発において、生成したファイル群をtxtar形式で出力し、ファイルシステムとして扱うことでテストを容易にできます。また、複数のファイルにまたがるテンプレートをtxtar形式として扱い、それをファイルシステムとして解釈することでtext/templateパッケージでパースでき、保守しやすさと可読性を両立できます。本セッションでは、skeletonという静的解析ツールのコードの雛形を生成するツールの開発で用いているio/fsパッケージを使ったいくつかの手法についてご紹介します。</description>
+    </item>
+    
+    <item>
       <title>Learning Computer Systems by Crafting: Shell （作って学ぶシェル）</title>
       <link>https://gocon.jp/2021autumn/ja/sessions/crafting-shell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -16,16 +209,32 @@
     </item>
     
     <item>
+      <title>net/httpでつくるHTTPルーター自作入門</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/handmade-http-router/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/handmade-http-router/</guid>
+      <description>Goの標準パッケージであるnet/httpを使ってHTTPルーターを自作する方法についてお話します。
+net/httpを使った簡単なサーバーを起動するコードの読み解きから始めて、HTTPルーターの自作方法、アルゴリズムについて解説します。
+優秀なルーターがOSSとして存在しているため、あまり自作するような機会はないかもしれませんが、自作を通して、net/httpや木構造への理解を深めることができます。
+本LTはGoの入門者をターゲットとして、Goの理解につながるきっかけとなるような話になればと思っています。</description>
+    </item>
+    
+    <item>
       <title>TinyGo ハンズオンA</title>
       <link>https://gocon.jp/2021autumn/ja/sessions/workshop_a/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/ja/sessions/workshop_a/</guid>
-      <description>TinyGo ハンズオンを行います。ハンズオンでは、組込ソフトとしての側面にフォーカスし、 L チカ (LED を光らせる) などを行います。
+      <description>イベントページ: https://gocon.connpass.com/event/226098/
+（参加申し込みは締め切りました。多数のお申し込みをいただき、ありがとうございました。）
+TinyGo ハンズオンを行います。ハンズオンでは、組込ソフトとしての側面にフォーカスし、 L チカ (LED を光らせる) などを行います。
 TinyGo は Go でマイコンや WASM 向けのバイナリを出力するためのプログラミング言語／環境です。今回のハンズオンの範囲としてはマイコン／組込システムで動く Go という認識で良いです。
 今回ハンズオンを実施するにあたり、 Seeed株式会社様より Wio Terminal ボードをスポンサー していただきました。 Wio Terminal を使って、 TinyGo による組込ソフト開発を体験してみましょう。
 このイベントは日本語で開催されます。
-This event will be held in Japanese.</description>
+This event will be held in Japanese.
+ハンズオン資料: https://github.com/sago35/tinygo-workshop
+13:10 - 14:10 の分を以下でライブ配信／アーカイブ配信します。</description>
     </item>
     
     <item>
@@ -34,11 +243,45 @@ This event will be held in Japanese.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/ja/sessions/workshop_b/</guid>
-      <description>TinyGo ハンズオンを行います。ハンズオンでは、組込ソフトとしての側面にフォーカスし、 L チカ (LED を光らせる) などを行います。
+      <description>イベントページ: https://gocon.connpass.com/event/226098/
+（参加申し込みは締め切りました。多数のお申し込みをいただき、ありがとうございました。）
+TinyGo ハンズオンを行います。ハンズオンでは、組込ソフトとしての側面にフォーカスし、 L チカ (LED を光らせる) などを行います。
 TinyGo は Go でマイコンや WASM 向けのバイナリを出力するためのプログラミング言語／環境です。今回のハンズオンの範囲としてはマイコン／組込システムで動く Go という認識で良いです。
 今回ハンズオンを実施するにあたり、 Seeed株式会社様より Wio Terminal ボードをスポンサー していただきました。 Wio Terminal を使って、 TinyGo による組込ソフト開発を体験してみましょう。
 このイベントは日本語で開催されます。
-This event will be held in Japanese.</description>
+This event will be held in Japanese.
+ハンズオン資料: https://github.com/sago35/tinygo-workshop
+13:10 - 14:10 の分を以下でライブ配信／アーカイブ配信します。</description>
+    </item>
+    
+    <item>
+      <title>Write an embedded time-series database in Go</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/embedded-time-series-db/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/embedded-time-series-db/</guid>
+      <description>Goプログラムからライブラリとして使える時系列データベースエンジンを作りました。他のタイプのデータベースと比べて扱うデータが遥かにシンプルである時系列データベースの実装方法を紹介することで、Go言語でデータベースエンジンを開発することが大変ではないことを聴衆に伝えます。
+まず時系列データの特徴と解決するべき問題について簡単に触れ、現在時系列データベース界隈で主流となっているアプローチを紹介します。そして最後に、Go言語でどのように実装するかについて詳説します。</description>
+    </item>
+    
+    <item>
+      <title>「🪦問題」から考えるGoのUnicodeサポート</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/go-unicode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/go-unicode/</guid>
+      <description>SpannerとGoでサービス開発をしたときに、「🪦問題」に遭遇しました。
+🪦が\U0001faa6になってしまった事象に遭遇したところから、Unicodeのリリースサイクルと、Goの追随状況、Unicodeサポート方法、spanner.NullStringを通してfmt.Sprintfの実装方法を調べました。
+本セッションでは、調査した知見を共有することで、GoのUnicodeサポートについて少し詳しくなり、spanner.NullStringやfmt.SprintfとUnicodeのハマりどころを知ってもらえるセッションをお届けします。</description>
+    </item>
+    
+    <item>
+      <title>オフィスアワー</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/_officehour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/_officehour/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -60,12 +303,92 @@ This event will be held in Japanese.</description>
     </item>
     
     <item>
+      <title>ゲームサーバ基盤TakashoをGoで開発して良かった点と課題感</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/sponsor-dena/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/sponsor-dena/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>スケジューラから学ぶGoランタイム 〜 code reading of runtime pkg〜</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/go-scheduling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/go-scheduling/</guid>
+      <description>Goにおいて複数のゴールーチンを並行に実行するためのスケジューラは、Goランタイム内で実装されています。しかし現在のスケジューラの大枠が実装されたのは9年前のGo1.1であり、世の中におけるGoのスケジューラ解説はそのときに世に出た公式設計書を元に、視覚的な図ベースで組み立てられているものがほとんどです。本セッションでは、スケジューラの挙動について実際のruntimeパッケージ内のコードベースで理解することを目的に、スケジューラについての説明体系を再構築します。</description>
+    </item>
+    
+    <item>
+      <title>スポンサーセッション: リモ・ジャパン合同会社</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/sponsor-remo-japan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/sponsor-remo-japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ノンデスクワーカー向けノーコードサービスのつらみ・うまみ</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/sponsor-kaminashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/sponsor-kaminashi/</guid>
+      <description>SaaSをほぼ使った事がない、ノンデスクワーカーの方々の武器になるノーコードサービスをカミナシはGoで作っています。
+サービス特性上、深いネストになりやすい木構造のデータをGoでさばく辛みだったり、木構造の各階層で複雑なデータパターンを安定的に扱う静的型付けの恩恵など、カミナシでGoを扱ってきて学んだ辛み・旨みを凝縮して共有させていただきます。</description>
+    </item>
+    
+    <item>
+      <title>マイクロサービス移行を仕上げる最後の数歩</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/microservice-last-steps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/microservice-last-steps/</guid>
+      <description>Rettyではおよそ10年以上動いているPHPのモノリスから、Goベースのマイクロサービスへの移行を続けています。
+長く開発が行われていましたが、2021年の3月から部分的に本番で運用されることになりました。
+育ち過ぎたモノリスからGo製マイクロサービスへの移行、実用までの最後の仕上げについてご紹介します。</description>
+    </item>
+    
+    <item>
       <title>ランチ休憩</title>
       <link>https://gocon.jp/2021autumn/ja/sessions/_lunch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2021autumn/ja/sessions/_lunch/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>二相コミットなどの具体例に見るゴルーチンとチャネルの使いどころ</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/two-phase-commit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/two-phase-commit/</guid>
+      <description>実務で実際に遭遇したゴルーチンとチャネルの使用事例を通して、その一般的な使いどころを考えます。
+CloudSQLとDatastore双方のデータの更新のためにGo言語で二相コミットの実装をした事例や、待ち時間がかかる処理をゴルーチンに逃がしAPI呼び出しのレイテンシを改善した事例を紹介します。</description>
+    </item>
+    
+    <item>
+      <title>人生いろいろモノレポもいろいろ♪</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/sponsor-bitkey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/sponsor-bitkey/</guid>
+      <description>モノレポ(Monorepo)とは、複数のモジュールやパッケージを単一のレポジトリで管理する手法です。
+Go でモノレポというと最近では、Bazel (&amp;amp; Gazelle) を活用したものがイメージされることが多いですが、他にも実現方法はあります。
+一番シンプルなものとして、単一Go モジュールによるモノレポがあります。 その他にも、ビルドツールを導入せず、Go モジュールを複数含めるパターンなど、様々なものがあります。
+こうした背景をもとに発表では以下の内容をお話しします。
+ モノレポの移行の目的 モノレポが本当に必要なのか モノレポのどのパターンが適しているのか モノレポへの移行方法  </description>
+    </item>
+    
+    <item>
+      <title>今日から使えるhttp.RoundTripper Tips</title>
+      <link>https://gocon.jp/2021autumn/ja/sessions/http-roundtripper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2021autumn/ja/sessions/http-roundtripper/</guid>
+      <description>http.Clientを使ったコードを書くときにとっても便利なhttp.RoundTripperインタフェースについて、今日から使えるお役立ちTipsをご紹介します</description>
     </item>
     
     <item>
